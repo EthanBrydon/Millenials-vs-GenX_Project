@@ -10,6 +10,7 @@ def create_graph(players):
         G.add_node(player['name'], color='lightcoral' if player['tribe'] == 'red' else 'thistle')
         for relationship in player['relationships']:
             G.add_edge(player['name'], relationship['name'], label=relationship['label'])
+            G.add_edge(player['name'], relationship['name'], label=relationship['label'])
 
     # Define positions for nodes
     red_nodes = [player['name'] for player in players if player['tribe'] == 'red']
