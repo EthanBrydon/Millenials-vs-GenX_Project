@@ -78,16 +78,15 @@ episode2_red = [
 ]
 
 episode2_purple = [
-    {'name': 'Sunday', 'tribe': 'purple', 'relationships': [{'name': 'Rachel', 'label': '-3'}, {'name': 'CeCe', 'label': '-2'}, {'name': 'Lucy', 'label': '2'}, {'name': 'Jessica', 'label': '2'}]},
-    {'name': 'Rachel', 'tribe': 'purple', 'relationships': [{'name': 'Sunday', 'label': '-3'}, {'name': 'Chris', 'label': '-3'}, {'name': 'Jessica', 'label': '-1'}, {'name': 'Bret', 'label': '-4'}, {'name': 'Paul', 'label': '-2'}, {'name': 'David', 'label': '-2'}, {'name': 'Ken', 'label': '-2'}]},
-    {'name': 'David', 'tribe': 'purple', 'relationships': [{'name': 'Bret', 'label': '0'}, {'name': 'Chris', 'label': '-1'}, {'name': 'Jessica', 'label': '-1'}, {'name': 'CeCe', 'label': '-2'}, {'name': 'Rachel', 'label': '-2'}, {'name': 'Paul', 'label': '-2'}, {'name': 'Ken', 'label': '4'}]},
-    {'name': 'Bret', 'tribe': 'purple', 'relationships': [{'name': 'David', 'label': '0'}, {'name': 'Rachel', 'label': '-4'}, {'name': 'Paul', 'label': '2'}, {'name': 'Ken', 'label': '2'}, {'name': 'Chris', 'label': '2'}]},
-    {'name': 'Chris', 'tribe': 'purple', 'relationships': [{'name': 'David', 'label': '-1'}, {'name': 'Rachel', 'label': '-3'}, {'name': 'Paul', 'label': '2'}, {'name': 'Ken', 'label': '2'}, {'name': 'Bret', 'label': '2'}]},
-    {'name': 'Jessica', 'tribe': 'purple', 'relationships': [{'name': 'David', 'label': '-1'}, {'name': 'Rachel', 'label': '-1'}, {'name': 'CeCe', 'label': '-2'}, {'name': 'Lucy', 'label': '2'}, {'name': 'Sunday', 'label': '2'}]},
-    {'name': 'Paul', 'tribe': 'purple', 'relationships': [{'name': 'Rachel', 'label': '-2'}, {'name': 'Ken', 'label': '0'}, {'name': 'Bret', 'label': '2'}, {'name': 'David', 'label': '-2'}, {'name': 'Chris', 'label': '2'}, {'name': 'CeCe', 'label': '-2'}]},
+    {'name': 'Sunday', 'tribe': 'purple', 'relationships': [{'name': 'CeCe', 'label': '-2'}, {'name': 'Lucy', 'label': '2'}, {'name': 'Jessica', 'label': '2'}]},
+    {'name': 'David', 'tribe': 'purple', 'relationships': [{'name': 'Bret', 'label': '0'}, {'name': 'Chris', 'label': '-1'}, {'name': 'Jessica', 'label': '-1'}, {'name': 'CeCe', 'label': '-2'}, {'name': 'Paul', 'label': '-2'}, {'name': 'Ken', 'label': '4'}]},
+    {'name': 'Bret', 'tribe': 'purple', 'relationships': [{'name': 'David', 'label': '0'}, {'name': 'Paul', 'label': '2'}, {'name': 'Ken', 'label': '2'}, {'name': 'Chris', 'label': '2'}]},
+    {'name': 'Chris', 'tribe': 'purple', 'relationships': [{'name': 'David', 'label': '-1'}, {'name': 'Paul', 'label': '2'}, {'name': 'Ken', 'label': '2'}, {'name': 'Bret', 'label': '2'}]},
+    {'name': 'Jessica', 'tribe': 'purple', 'relationships': [{'name': 'David', 'label': '-1'}, {'name': 'CeCe', 'label': '-2'}, {'name': 'Lucy', 'label': '2'}, {'name': 'Sunday', 'label': '2'}]},
+    {'name': 'Paul', 'tribe': 'purple', 'relationships': [{'name': 'Ken', 'label': '0'}, {'name': 'Bret', 'label': '2'}, {'name': 'David', 'label': '-2'}, {'name': 'Chris', 'label': '2'}, {'name': 'CeCe', 'label': '-2'}]},
     {'name': 'Lucy', 'tribe': 'purple', 'relationships': [{'name': 'CeCe', 'label': '-2'}, {'name': 'Jessica', 'label': '2'}, {'name': 'Sunday', 'label': '2'}]},
     {'name': 'CeCe', 'tribe': 'purple', 'relationships': [{'name': 'Lucy', 'label': '-2'}, {'name': 'David', 'label': '-2'}, {'name': 'Jessica', 'label': '-2'}, {'name': 'Sunday', 'label': '-2'}, {'name': 'Paul', 'label': '-2'}]},
-    {'name': 'Ken', 'tribe': 'purple', 'relationships': [{'name': 'Rachel', 'label': '-2'}, {'name': 'Paul', 'label': '0'}, {'name': 'Bret', 'label': '2'}, {'name': 'David', 'label': '4'}, {'name': 'Chris', 'label': '2'}]},
+    {'name': 'Ken', 'tribe': 'purple', 'relationships': [{'name': 'Paul', 'label': '0'}, {'name': 'Bret', 'label': '2'}, {'name': 'David', 'label': '4'}, {'name': 'Chris', 'label': '2'}]},
 ]
 
 episode1_sw_red = [
@@ -131,7 +130,6 @@ episode2_sw_red = [
 
 episode2_sw_purple = [
     {'name': 'Sunday', 'tribe': 'purple', 'relationships': [{'name': 'Lucy', 'label': 'w'}, {'name': 'Jessica', 'label': 'w'}]},
-    {'name': 'Rachel', 'tribe': 'purple', 'relationships': []},
     {'name': 'David', 'tribe': 'purple', 'relationships': [{'name': 'Ken', 'label': 's'}]},
     {'name': 'Bret', 'tribe': 'purple', 'relationships': [{'name': 'Paul', 'label': 'w'}, {'name': 'Ken', 'label': 'w'}, {'name': 'Chris', 'label': 'w'}]},
     {'name': 'Chris', 'tribe': 'purple', 'relationships': [{'name': 'Paul', 'label': 'w'}, {'name': 'Ken', 'label': 'w'}, {'name': 'Bret', 'label': 'w'}]},
@@ -144,11 +142,12 @@ episode2_sw_purple = [
 
 
 
-create_graph(episode1_red)
-create_graph(episode1_purple)
-create_graph(episode2_red)
+# create_graph(episode1_red)
+# create_graph(episode1_purple)
+# create_graph(episode2_red)
 create_graph(episode2_purple)
-create_graph(episode1_sw_red)
-create_graph(episode1_sw_purple)
-create_graph(episode2_sw_red)
+
+# create_graph(episode1_sw_red)
+# create_graph(episode1_sw_purple)
+# create_graph(episode2_sw_red)
 create_graph(episode2_sw_purple)
