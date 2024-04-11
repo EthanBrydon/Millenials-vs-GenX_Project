@@ -130,40 +130,58 @@ def toStringForGraphTemplate(relationship_strengths):
         string = string[:-2] + ']},\n'
     return string
 
+def print_all_episode_graphs(episodes):
+
+    for i in range(len(episodes)-2):
+        relationship_strengths_dir = calculate_relationship_strengths_directed(episodes[:i+3])
+        relationship_strengths_un = calculate_relationship_strengths_undirected(episodes[:i+3])
+
+        print("*** Relationship Strengths ***")
+        print('First ' + str(i+3) + ' Episodes Relationship Strengths (Directed):')
+        print(toStringForGraphTemplate(relationship_strengths_dir))
+        print()
+        print('First ' + str(i+3) + ' Episodes Relationship Strengths (Undirected):')
+        print(toStringForGraphTemplate(relationship_strengths_un))
+        print()
+
 
 # Main function
 def main():
 
     # Load the player interactions data from the csv file
-    episodes_1_2_player_interactions_fullpath = r'C:\Users\Ethan\Documents\Educational\School Terms\Winter 2024\COMP 4602 A\Project\Millenials-vs-GenX_Project\excel_data\Survivor_Player_Interactions_E12.csv'
+    episodes_player_interactions_fullpath = r'C:\Users\Ethan\Documents\Educational\School Terms\Winter 2024\COMP 4602 A\Project\Millenials-vs-GenX_Project\excel_data\Survivor_Player_Interactions.csv'
 
-    player_interactions = np.loadtxt(episodes_1_2_player_interactions_fullpath, delimiter=',', dtype=str, skiprows=1)
+    player_interactions = np.loadtxt(episodes_player_interactions_fullpath, delimiter=',', dtype=str, skiprows=1)
 
     episodes = split_rows_by_episode(player_interactions)
+
+    sorted_episodes = sorted(episodes, key=lambda x: float(x[0][0]))
+
+    print_all_episode_graphs(sorted_episodes[:5])
     
-    relationship_strengths_ep1_dir = calculate_relationship_strengths_episode_directed(episodes[0])
-    relationship_strengths_dir = calculate_relationship_strengths_directed(episodes)
+    # relationship_strengths_ep1_dir = calculate_relationship_strengths_episode_directed(episodes[0])
+    # relationship_strengths_dir = calculate_relationship_strengths_directed(episodes)
 
-    print("*** Directed Relationship Strengths ***")
-    print('Episode 1 Relationship Strengths (Directed):')
-    print(toStringForGraphTemplate(relationship_strengths_ep1_dir))
-    print()
-    print('First 2 Episodes Relationship Strengths (Directed):')
-    print(toStringForGraphTemplate(relationship_strengths_dir))
-    print()
-    print()
+    # print("*** Directed Relationship Strengths ***")
+    # print('Episode 1 Relationship Strengths (Directed):')
+    # print(toStringForGraphTemplate(relationship_strengths_ep1_dir))
+    # print()
+    # print('First 2 Episodes Relationship Strengths (Directed):')
+    # print(toStringForGraphTemplate(relationship_strengths_dir))
+    # print()
+    # print()
 
-    relationship_strengths_ep1_un = calculate_relationship_strengths_episode_undirected(episodes[0])
-    relationship_strengths_un = calculate_relationship_strengths_undirected(episodes)
+    # relationship_strengths_ep1_un = calculate_relationship_strengths_episode_undirected(episodes[0])
+    # relationship_strengths_un = calculate_relationship_strengths_undirected(episodes)
 
-    print("*** Undirected Relationship Strengths ***")
-    print('Episode 1 Relationship Strengths (Undirected):')
-    print(toStringForGraphTemplate(relationship_strengths_ep1_un))
-    print()
-    print('First 2 Episodes Relationship Strengths (Undirected):')
-    print(toStringForGraphTemplate(relationship_strengths_un))
-    print()
-    print()
+    # print("*** Undirected Relationship Strengths ***")
+    # print('Episode 1 Relationship Strengths (Undirected):')
+    # print(toStringForGraphTemplate(relationship_strengths_ep1_un))
+    # print()
+    # print('First 2 Episodes Relationship Strengths (Undirected):')
+    # print(toStringForGraphTemplate(relationship_strengths_un))
+    # print()
+    # print()
 
 
 if __name__ == '__main__':

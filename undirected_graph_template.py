@@ -37,8 +37,11 @@ def create_graph(players):
 
     plt.show()
 
-# Example usage
-episode1_red = [
+### Undirected Weighted Graphs ###
+    
+# Episode 1 #
+    
+episode1_vanua = [
     {'name': 'Taylor', 'tribe': 'red', 'relationships': [{'name': 'Jay', 'label': '4'}, {'name': 'Figgy', 'label': '4'}, {'name': 'Michelle', 'label': '1'}]},
     {'name': 'Jay', 'tribe': 'red', 'relationships': [{'name': 'Taylor', 'label': '4'}, {'name': 'Figgy', 'label': '4'}, {'name': 'Michelle', 'label': '1'}]},
     {'name': 'Figgy', 'tribe': 'red', 'relationships': [{'name': 'Taylor', 'label': '4'}, {'name': 'Jay', 'label': '4'}]},
@@ -51,7 +54,7 @@ episode1_red = [
     {'name': 'Adam', 'tribe': 'red', 'relationships': []},
 ]
 
-episode1_purple = [
+episode1_takali = [
     {'name': 'Sunday', 'tribe': 'purple', 'relationships': [{'name': 'Rachel', 'label': '-3'}, {'name': 'CeCe', 'label': '-2'}, {'name': 'Lucy', 'label': '2'}, {'name': 'Jessica', 'label': '2'}]},
     {'name': 'Rachel', 'tribe': 'purple', 'relationships': [{'name': 'Sunday', 'label': '-3'}, {'name': 'Chris', 'label': '-3'}, {'name': 'Jessica', 'label': '-1'}, {'name': 'Bret', 'label': '-4'}, {'name': 'Paul', 'label': '-2'}, {'name': 'David', 'label': '-2'}, {'name': 'Ken', 'label': '-2'}]},
     {'name': 'David', 'tribe': 'purple', 'relationships': [{'name': 'Bret', 'label': '0'}, {'name': 'Chris', 'label': '0'}, {'name': 'Jessica', 'label': '-1'}, {'name': 'CeCe', 'label': '-2'}, {'name': 'Rachel', 'label': '-2'}, {'name': 'Paul', 'label': '1'}, {'name': 'Ken', 'label': '1'}]},
@@ -64,7 +67,10 @@ episode1_purple = [
     {'name': 'Ken', 'tribe': 'purple', 'relationships': [{'name': 'Rachel', 'label': '-2'}, {'name': 'Paul', 'label': '2'}, {'name': 'Bret', 'label': '2'}, {'name': 'David', 'label': '1'}, {'name': 'Chris', 'label': '2'}]},
 ]
 
-episode2_red = [
+
+# Episode 2 #
+
+episode2_vanua = [
     {'name': 'Taylor', 'tribe': 'red', 'relationships': [{'name': 'Jay', 'label': '6'}, {'name': 'Figgy', 'label': '8'}, {'name': 'Michelle', 'label': '4'}, {'name': 'Michaela', 'label': '0'}, {'name': 'Mari', 'label': '-2'}, {'name': 'Will', 'label': '2'}, {'name': 'Hannah', 'label': '2'}]},
     {'name': 'Jay', 'tribe': 'red', 'relationships': [{'name': 'Taylor', 'label': '6'}, {'name': 'Figgy', 'label': '6'}, {'name': 'Michelle', 'label': '6'}, {'name': 'Mari', 'label': '-2'}, {'name': 'Michaela', 'label': '2'}, {'name': 'Will', 'label': '2'}, {'name': 'Hannah', 'label': '2'}]},
     {'name': 'Figgy', 'tribe': 'red', 'relationships': [{'name': 'Taylor', 'label': '8'}, {'name': 'Jay', 'label': '6'}, {'name': 'Michaela', 'label': '-6'}, {'name': 'Mari', 'label': '-6'}, {'name': 'Zeke', 'label': '-3'}, {'name': 'Hannah', 'label': '1'}, {'name': 'Michelle', 'label': '4'}, {'name': 'Adam', 'label': '-2'}, {'name': 'Will', 'label': '2'}]},
@@ -77,7 +83,7 @@ episode2_red = [
     {'name': 'Adam', 'tribe': 'red', 'relationships': [{'name': 'Figgy', 'label': '-2'}, {'name': 'Mari', 'label': '2'}, {'name': 'Zeke', 'label': '2'}]},
 ]
 
-episode2_purple = [
+episode2_takali = [
     {'name': 'Sunday', 'tribe': 'purple', 'relationships': [{'name': 'CeCe', 'label': '-2'}, {'name': 'Lucy', 'label': '2'}, {'name': 'Jessica', 'label': '2'}]},
     {'name': 'David', 'tribe': 'purple', 'relationships': [{'name': 'Bret', 'label': '0'}, {'name': 'Chris', 'label': '-1'}, {'name': 'Jessica', 'label': '-1'}, {'name': 'CeCe', 'label': '-2'}, {'name': 'Paul', 'label': '-2'}, {'name': 'Ken', 'label': '4'}]},
     {'name': 'Bret', 'tribe': 'purple', 'relationships': [{'name': 'David', 'label': '0'}, {'name': 'Paul', 'label': '2'}, {'name': 'Ken', 'label': '2'}, {'name': 'Chris', 'label': '2'}]},
@@ -89,7 +95,15 @@ episode2_purple = [
     {'name': 'Ken', 'tribe': 'purple', 'relationships': [{'name': 'Paul', 'label': '0'}, {'name': 'Bret', 'label': '2'}, {'name': 'David', 'label': '4'}, {'name': 'Chris', 'label': '2'}]},
 ]
 
-episode1_sw_red = [
+
+
+
+
+### Undirected Strong vs Weak Graphs ###
+
+# Episode 1 #
+
+episode1_sw_vanua = [
     {'name': 'Taylor', 'tribe': 'red', 'relationships': [{'name': 'Jay', 'label': 's'}, {'name': 'Figgy', 'label': 's'}, {'name': 'Michelle', 'label': 'w'}]},
     {'name': 'Jay', 'tribe': 'red', 'relationships': [{'name': 'Taylor', 'label': 's'}, {'name': 'Figgy', 'label': 's'}, {'name': 'Michelle', 'label': 'w'}]},
     {'name': 'Figgy', 'tribe': 'red', 'relationships': [{'name': 'Taylor', 'label': 's'}, {'name': 'Jay', 'label': 's'}]},
@@ -102,7 +116,7 @@ episode1_sw_red = [
     {'name': 'Adam', 'tribe': 'red', 'relationships': []},
 ]
 
-episode1_sw_purple = [
+episode1_sw_takali = [
     {'name': 'Sunday', 'tribe': 'purple', 'relationships': [{'name': 'Lucy', 'label': '2'}, {'name': 'Jessica', 'label': '2'}]},
     {'name': 'Rachel', 'tribe': 'purple', 'relationships': []},
     {'name': 'David', 'tribe': 'purple', 'relationships': [{'name': 'Paul', 'label': 'w'}, {'name': 'Ken', 'label': 'w'}]},
@@ -115,7 +129,10 @@ episode1_sw_purple = [
     {'name': 'Ken', 'tribe': 'purple', 'relationships': [{'name': 'Paul', 'label': 'w'}, {'name': 'Bret', 'label': 'w'}, {'name': 'David', 'label': 'w'}, {'name': 'Chris', 'label': 'w'}]},
 ]
 
-episode2_sw_red = [
+
+# Episode 2 #
+
+episode2_sw_vanua = [
     {'name': 'Taylor', 'tribe': 'red', 'relationships': [{'name': 'Jay', 'label': 's'}, {'name': 'Figgy', 'label': 's'}, {'name': 'Michelle', 'label': 's'}, {'name': 'Will', 'label': 'w'}, {'name': 'Hannah', 'label': 'w'}]},
     {'name': 'Jay', 'tribe': 'red', 'relationships': [{'name': 'Taylor', 'label': 's'}, {'name': 'Figgy', 'label': 's'}, {'name': 'Michelle', 'label': 's'}, {'name': 'Michaela', 'label': 'w'}, {'name': 'Will', 'label': 'w'}, {'name': 'Hannah', 'label': 'w'}]},
     {'name': 'Figgy', 'tribe': 'red', 'relationships': [{'name': 'Taylor', 'label': 's'}, {'name': 'Jay', 'label': 's'}, {'name': 'Michelle', 'label': 's'}, {'name': 'Will', 'label': 'w'}]},
@@ -128,7 +145,7 @@ episode2_sw_red = [
     {'name': 'Adam', 'tribe': 'red', 'relationships': [{'name': 'Mari', 'label': 'w'}, {'name': 'Zeke', 'label': 'w'}]},
 ]
 
-episode2_sw_purple = [
+episode2_sw_takali = [
     {'name': 'Sunday', 'tribe': 'purple', 'relationships': [{'name': 'Lucy', 'label': 'w'}, {'name': 'Jessica', 'label': 'w'}]},
     {'name': 'David', 'tribe': 'purple', 'relationships': [{'name': 'Ken', 'label': 's'}]},
     {'name': 'Bret', 'tribe': 'purple', 'relationships': [{'name': 'Paul', 'label': 'w'}, {'name': 'Ken', 'label': 'w'}, {'name': 'Chris', 'label': 'w'}]},
@@ -141,6 +158,8 @@ episode2_sw_purple = [
 ]
 
 
+
+## Creating Graphs Section ##
 
 # create_graph(episode1_red)
 # create_graph(episode1_purple)
