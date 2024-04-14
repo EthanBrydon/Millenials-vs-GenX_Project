@@ -1,0 +1,810 @@
+#################### RELATIONSHIP STRENGTHS #####################
+
+# *** Relationship Strengths Directed ***
+# First 1 Episodes Strengths (Directed):
+Taylor: {Jay: 2, Figgy: 2, Michelle: 1}
+Figgy: {Jay: 2, Taylor: 2}
+Jay: {Taylor: 2, Figgy: 2, Michelle: 1}
+Michelle: {Hannah: 1}
+Hannah: {Michelle: 1, Mari: 1}
+Sunday: {Rachel: -1, CeCe: -2, Lucy: 1, Jessica: 1}
+David: {Bret: 1, Chris: 1, Rachel: -2}
+Bret: {David: -1, Rachel: -4, Ken: 1, Paul: 1, Chris: 1}
+Chris: {David: -1, Rachel: -3, Ken: 1, Paul: 1, Bret: 1}
+Jessica: {David: -1, Rachel: -1, CeCe: -2, Lucy: 1, Sunday: 1}
+Mari: {Hannah: 1}
+Rachel: {Sunday: -2}
+Paul: {Rachel: -2, Ken: 1, Bret: 1, David: 1, Chris: 1}
+Lucy: {CeCe: -2, Jessica: 1, Sunday: 1}
+CeCe: {David: -2}
+Ken: {Rachel: -2, Bret: 1, David: 1, Paul: 1, Chris: 1}
+
+
+# *** Relationship Strengths Undirected ***
+# First 1 Episodes Strengths (Undirected):
+Taylor: {Jay: 4, Figgy: 4, Michelle: 1}
+Jay: {Taylor: 4, Figgy: 4, Michelle: 1}
+Figgy: {Taylor: 4, Jay: 4}
+Michelle: {Taylor: 1, Jay: 1, Hannah: 2}
+Hannah: {Michelle: 2, Mari: 2}
+Sunday: {Rachel: -3, CeCe: -2, Lucy: 2, Jessica: 2}
+Rachel: {Sunday: -3, Chris: -3, Jessica: -1, Bret: -4, Paul: -2, David: -2, Ken: -2}
+David: {Bret: 0, Chris: 0, Jessica: -1, CeCe: -2, Rachel: -2, Paul: 1, Ken: 1}
+Bret: {David: 0, Rachel: -4, Paul: 2, Ken: 2, Chris: 2}
+Chris: {David: 0, Rachel: -3, Paul: 2, Ken: 2, Bret: 2}
+Jessica: {David: -1, Rachel: -1, CeCe: -2, Lucy: 2, Sunday: 2}
+Mari: {Hannah: 2}
+Paul: {Rachel: -2, Ken: 2, Bret: 2, David: 1, Chris: 2}
+Lucy: {CeCe: -2, Jessica: 2, Sunday: 2}
+CeCe: {Lucy: -2, David: -2, Jessica: -2, Sunday: -2}
+Ken: {Rachel: -2, Paul: 2, Bret: 2, David: 1, Chris: 2}
+
+
+# *** Relationship Strengths Directed ***
+# First 2 Episodes Strengths (Directed):
+Taylor: {Jay: 3, Figgy: 4, Michelle: 2, Mari: -2, Michaela: 1, Will: 1, Hannah: 1}
+Figgy: {Jay: 3, Taylor: 4, Michaela: -2, Mari: -2, Michelle: 1, Will: 1, Hannah: 1}
+Jay: {Taylor: 3, Figgy: 3, Michelle: 3, Mari: -2, Michaela: 1, Will: 1, Hannah: 1}
+Michelle: {Hannah: 2, Figgy: 3, Jay: 3, Taylor: 2, Mari: -2, Michaela: 1, Will: 1}
+Hannah: {Michelle: 2, Mari: -1, Figgy: 0, Michaela: 1, Taylor: 1, Will: 1, Jay: 1}
+Sunday: {Rachel: -1, CeCe: -2, Lucy: 1, Jessica: 1}
+David: {Bret: 1, Chris: 1, Rachel: -2, Ken: 1, Paul: -2}
+Bret: {David: -1, Rachel: -4, Ken: 1, Paul: 1, Chris: 1}
+Chris: {David: -2, Rachel: -3, Ken: 1, Paul: 1, Bret: 1}
+Jessica: {David: -1, Rachel: -1, CeCe: -2, Lucy: 1, Sunday: 1}
+Mari: {Hannah: 1, Figgy: -4, Zeke: 1, Adam: 1}
+Rachel: {Sunday: -2}
+Paul: {Rachel: -2, Ken: 1, Bret: 1, David: 0, Chris: 1, CeCe: -1}
+Lucy: {CeCe: -2, Jessica: 1, Sunday: 1}
+CeCe: {David: -2, Paul: -1}
+Ken: {Rachel: -2, Bret: 1, David: 3, Paul: -1, Chris: 1}
+Michaela: {Taylor: -1, Figgy: -4, Mari: -2, Michelle: 1, Will: 1, Jay: 1, Hannah: 1}
+Zeke: {Figgy: -3, Michaela: -1, Adam: 1, Mari: 1}
+Will: {Mari: -2, Michaela: 1, Michelle: 1, Taylor: 1, Figgy: 1, Jay: 1, Hannah: 1}
+Adam: {Figgy: -2, Mari: 1, Zeke: 1}
+
+
+# *** Relationship Strengths Undirected ***
+# First 2 Episodes Strengths (Undirected):
+Taylor: {Jay: 6, Figgy: 8, Michelle: 4, Michaela: 0, Mari: -2, Will: 2, Hannah: 2}
+Jay: {Taylor: 6, Figgy: 6, Michelle: 6, Mari: -2, Michaela: 2, Will: 2, Hannah: 2}
+Figgy: {Taylor: 8, Jay: 6, Michaela: -6, Mari: -6, Zeke: -3, Hannah: 1, Michelle: 4, Adam: -2, Will: 2}
+Michelle: {Taylor: 4, Jay: 6, Hannah: 4, Figgy: 4, Mari: -2, Michaela: 2, Will: 2}
+Hannah: {Michelle: 4, Mari: 0, Figgy: 1, Michaela: 2, Taylor: 2, Will: 2, Jay: 2}
+Sunday: {Rachel: -3, CeCe: -2, Lucy: 2, Jessica: 2}
+Rachel: {Sunday: -3, Chris: -3, Jessica: -1, Bret: -4, Paul: -2, David: -2, Ken: -2}
+David: {Bret: 0, Chris: -1, Jessica: -1, CeCe: -2, Rachel: -2, Paul: -2, Ken: 4}
+Bret: {David: 0, Rachel: -4, Paul: 2, Ken: 2, Chris: 2}
+Chris: {David: -1, Rachel: -3, Paul: 2, Ken: 2, Bret: 2}
+Jessica: {David: -1, Rachel: -1, CeCe: -2, Lucy: 2, Sunday: 2}
+Mari: {Hannah: 0, Figgy: -6, Michaela: -2, Michelle: -2, Taylor: -2, Will: -2, Jay: -2, Adam: 2, Zeke: 2}
+Paul: {Rachel: -2, Ken: 0, Bret: 2, David: -2, Chris: 2, CeCe: -2}
+Lucy: {CeCe: -2, Jessica: 2, Sunday: 2}
+CeCe: {Lucy: -2, David: -2, Jessica: -2, Sunday: -2, Paul: -2}
+Ken: {Rachel: -2, Paul: 0, Bret: 2, David: 4, Chris: 2}
+Michaela: {Taylor: 0, Figgy: -6, Zeke: -1, Mari: -2, Michelle: 2, Will: 2, Jay: 2, Hannah: 2}
+Zeke: {Figgy: -3, Michaela: -1, Adam: 2, Mari: 2}
+Will: {Mari: -2, Figgy: 2, Michaela: 2, Michelle: 2, Taylor: 2, Jay: 2, Hannah: 2}
+Adam: {Figgy: -2, Mari: 2, Zeke: 2}
+
+
+# *** Relationship Strengths Directed ***
+# First 3 Episodes Strengths (Directed):
+Taylor: {Jay: 4, Figgy: 6, Michelle: 2, Mari: -2, Michaela: 1, Will: 2, Hannah: 1}
+Figgy: {Jay: 3, Taylor: 5, Michaela: -2, Mari: -2, Michelle: 1, Will: 1, Hannah: 1, Zeke: -2, Adam: -1}
+Jay: {Taylor: 3, Figgy: 3, Michelle: 3, Mari: -2, Michaela: 1, Will: 1, Hannah: 1}
+Michelle: {Hannah: 2, Figgy: 3, Jay: 3, Taylor: 2, Mari: -2, Michaela: 1, Will: 1, Zeke: -1}
+Hannah: {Michelle: 2, Mari: -1, Figgy: 0, Michaela: 1, Taylor: 1, Will: 1, Jay: 1, Zeke: -1, Adam: -1}
+Sunday: {Rachel: -1, CeCe: -2, Lucy: 2, Jessica: 3, Bret: 1, Chris: 1, Paul: -2, David: 1, Ken: 1}
+David: {Bret: 1, Chris: 1, Rachel: -2, Ken: 2, Paul: -5, Taylor: 1, Lucy: 1, Sunday: 1, CeCe: 1, Jessica: 1}
+Bret: {David: -1, Rachel: -4, Ken: 1, Paul: 2, Chris: 3, CeCe: -3, Sunday: 1}
+Chris: {David: -2, Rachel: -3, Ken: 1, Paul: 2, Bret: 3, CeCe: -3, Sunday: 1}
+Jessica: {David: 0, Rachel: -1, CeCe: -1, Lucy: 3, Sunday: 3, Chris: 1, Paul: -2, Bret: 1, Ken: 1}
+Mari: {Hannah: 1, Figgy: -4, Zeke: 1, Adam: 1}
+Rachel: {Sunday: -2}
+Paul: {Rachel: -2, Ken: 1, Bret: 2, David: -1, Chris: 2, CeCe: -4, Jessica: 1, Sunday: 1}
+Lucy: {CeCe: -1, Jessica: 2, Sunday: 2, Paul: -3, David: 1, Ken: 1}
+CeCe: {David: -1, Paul: -4, Ken: 2, Lucy: 1, Sunday: 1, Jessica: 1}
+Ken: {Rachel: -2, Bret: 1, David: 3, Paul: -5, Chris: 1, CeCe: 0, Jessica: 2, Sunday: 2, Lucy: 1}
+Michaela: {Taylor: -1, Figgy: -5, Mari: -2, Michelle: 1, Will: 1, Jay: 1, Hannah: 1}
+Zeke: {Figgy: -3, Michaela: -1, Adam: 2, Mari: 1, Hannah: -1}
+Will: {Mari: -2, Michaela: 1, Michelle: 1, Taylor: 1, Figgy: 1, Jay: 1, Hannah: 1}
+Adam: {Figgy: -3, Mari: 1, Zeke: 2, Hannah: -1}
+
+
+# *** Relationship Strengths Undirected ***
+# First 3 Episodes Strengths (Undirected):
+Taylor: {Jay: 7, Figgy: 11, Michelle: 4, Michaela: 0, Mari: -2, Will: 3, Hannah: 2, David: 1}
+Jay: {Taylor: 7, Figgy: 6, Michelle: 6, Mari: -2, Michaela: 2, Will: 2, Hannah: 2}
+Figgy: {Taylor: 11, Jay: 6, Michaela: -7, Mari: -6, Zeke: -5, Hannah: 1, Michelle: 4, Adam: -4, Will: 2}
+Michelle: {Taylor: 4, Jay: 6, Hannah: 4, Figgy: 4, Mari: -2, Michaela: 2, Will: 2, Zeke: -1}
+Hannah: {Michelle: 4, Mari: 0, Figgy: 1, Michaela: 2, Taylor: 2, Will: 2, Jay: 2, Zeke: -2, Adam: -2}
+Sunday: {Rachel: -3, CeCe: -1, Lucy: 4, Jessica: 6, Ken: 3, Bret: 2, Chris: 2, Paul: -1, David: 2}
+Rachel: {Sunday: -3, Chris: -3, Jessica: -1, Bret: -4, Paul: -2, David: -2, Ken: -2}
+David: {Bret: 0, Chris: -1, Jessica: 1, CeCe: 0, Rachel: -2, Paul: -6, Ken: 5, Taylor: 1, Lucy: 2, Sunday: 2}
+Bret: {David: 0, Rachel: -4, Paul: 4, Ken: 2, Chris: 6, Jessica: 1, CeCe: -3, Sunday: 2}
+Chris: {David: -1, Rachel: -3, Paul: 4, Ken: 2, Bret: 6, Jessica: 1, CeCe: -3, Sunday: 2}
+Jessica: {David: 1, Rachel: -1, CeCe: 0, Lucy: 5, Sunday: 6, Ken: 3, Chris: 1, Paul: -1, Bret: 1}
+Mari: {Hannah: 0, Figgy: -6, Michaela: -2, Michelle: -2, Taylor: -2, Will: -2, Jay: -2, Adam: 2, Zeke: 2}
+Paul: {Rachel: -2, Ken: -4, Bret: 4, David: -6, Chris: 4, CeCe: -8, Jessica: -1, Sunday: -1, Lucy: -3}
+Lucy: {CeCe: 0, Jessica: 5, Sunday: 4, Paul: -3, David: 2, Ken: 2}
+CeCe: {Lucy: 0, David: 0, Jessica: 0, Sunday: -1, Paul: -8, Ken: 2, Chris: -3, Bret: -3}
+Ken: {Rachel: -2, Paul: -4, Bret: 2, David: 5, Chris: 2, CeCe: 2, Jessica: 3, Sunday: 3, Lucy: 2}
+Michaela: {Taylor: 0, Figgy: -7, Zeke: -1, Mari: -2, Michelle: 2, Will: 2, Jay: 2, Hannah: 2}
+Zeke: {Figgy: -5, Michaela: -1, Adam: 4, Mari: 2, Hannah: -2, Michelle: -1}
+Will: {Mari: -2, Figgy: 2, Michaela: 2, Michelle: 2, Taylor: 3, Jay: 2, Hannah: 2}
+Adam: {Figgy: -4, Mari: 2, Zeke: 4, Hannah: -2}
+
+
+# *** Relationship Strengths Directed ***
+# First 4 Episodes Strengths (Directed):
+Taylor: {Jay: 4, Figgy: 6, Michelle: 2, Mari: -2, Michaela: 1, Will: 2, Hannah: 1}
+Figgy: {Jay: 3, Taylor: 5, Michaela: -2, Mari: -2, Michelle: 1, Will: 1, Hannah: 1, Zeke: -2, Adam: -1}
+Jay: {Taylor: 3, Figgy: 3, Michelle: 3, Mari: -2, Michaela: 1, Will: 1, Hannah: 1}
+Michelle: {Hannah: 2, Figgy: 3, Jay: 3, Taylor: 2, Mari: -2, Michaela: 1, Will: 1, Zeke: -1}
+Hannah: {Michelle: 2, Mari: -1, Figgy: 0, Michaela: 1, Taylor: 1, Will: 1, Jay: 1, Zeke: -1, Adam: -1}
+Sunday: {Rachel: -1, CeCe: -2, Lucy: 3, Jessica: 1, Bret: 2, Chris: 2, Paul: -2, David: 1, Ken: 2}
+David: {Bret: 1, Chris: 1, Rachel: -2, Ken: 2, Paul: -5, Taylor: 1, Lucy: -2, Sunday: 1, CeCe: 3, Jessica: 4}
+Bret: {David: -1, Rachel: -4, Ken: 2, Paul: 2, Chris: 4, CeCe: -3, Sunday: 1, Lucy: 0, Jessica: -4}
+Chris: {David: -2, Rachel: -3, Ken: 2, Paul: 2, Bret: 4, CeCe: -3, Sunday: 1, Lucy: 0, Jessica: -4}
+Jessica: {David: 1, Rachel: -1, CeCe: -3, Lucy: 3, Sunday: 3, Chris: 1, Paul: -2, Bret: 1, Ken: -1}
+Mari: {Hannah: 1, Figgy: -4, Zeke: 1, Adam: 1}
+Rachel: {Sunday: -2}
+Paul: {Rachel: -2, Ken: 1, Bret: 2, David: -1, Chris: 2, CeCe: -4, Jessica: 1, Sunday: 1}
+Lucy: {CeCe: -1, Jessica: -1, Sunday: 3, Paul: -3, David: 2, Ken: 3, Bret: 2, Chris: 2}
+CeCe: {David: 0, Paul: -4, Ken: 2, Lucy: -1, Sunday: 1, Jessica: 1}
+Ken: {Rachel: -2, Bret: 2, David: 4, Paul: -5, Chris: 2, CeCe: 0, Jessica: 0, Sunday: 3, Lucy: 0}
+Michaela: {Taylor: -1, Figgy: -5, Mari: -2, Michelle: 1, Will: 1, Jay: 1, Hannah: 1}
+Zeke: {Figgy: -3, Michaela: -1, Adam: 2, Mari: 1, Hannah: -1}
+Will: {Mari: -2, Michaela: 1, Michelle: 1, Taylor: 1, Figgy: 1, Jay: 1, Hannah: 1}
+Adam: {Figgy: -3, Mari: 1, Zeke: 2, Hannah: -1}
+
+
+# *** Relationship Strengths Undirected ***
+# First 4 Episodes Strengths (Undirected):
+Taylor: {Jay: 7, Figgy: 11, Michelle: 4, Michaela: 0, Mari: -2, Will: 3, Hannah: 2, David: 1}
+Jay: {Taylor: 7, Figgy: 6, Michelle: 6, Mari: -2, Michaela: 2, Will: 2, Hannah: 2}
+Figgy: {Taylor: 11, Jay: 6, Michaela: -7, Mari: -6, Zeke: -5, Hannah: 1, Michelle: 4, Adam: -4, Will: 2}
+Michelle: {Taylor: 4, Jay: 6, Hannah: 4, Figgy: 4, Mari: -2, Michaela: 2, Will: 2, Zeke: -1}
+Hannah: {Michelle: 4, Mari: 0, Figgy: 1, Michaela: 2, Taylor: 2, Will: 2, Jay: 2, Zeke: -2, Adam: -2}
+Sunday: {Rachel: -3, CeCe: -1, Lucy: 6, Jessica: 4, Ken: 5, Bret: 3, Chris: 3, Paul: -1, David: 2}
+Rachel: {Sunday: -3, Chris: -3, Jessica: -1, Bret: -4, Paul: -2, David: -2, Ken: -2}
+David: {Bret: 0, Chris: -1, Jessica: 5, CeCe: 3, Rachel: -2, Paul: -6, Ken: 6, Taylor: 1, Lucy: 0, Sunday: 2}
+Bret: {David: 0, Rachel: -4, Paul: 4, Ken: 4, Chris: 8, Jessica: -3, CeCe: -3, Sunday: 3, Lucy: 2}
+Chris: {David: -1, Rachel: -3, Paul: 4, Ken: 4, Bret: 8, Jessica: -3, CeCe: -3, Sunday: 3, Lucy: 2}
+Jessica: {David: 5, Rachel: -1, CeCe: -2, Lucy: 2, Sunday: 4, Ken: -1, Chris: -3, Paul: -1, Bret: -3}
+Mari: {Hannah: 0, Figgy: -6, Michaela: -2, Michelle: -2, Taylor: -2, Will: -2, Jay: -2, Adam: 2, Zeke: 2}
+Paul: {Rachel: -2, Ken: -4, Bret: 4, David: -6, Chris: 4, CeCe: -8, Jessica: -1, Sunday: -1, Lucy: -3}
+Lucy: {CeCe: -2, Jessica: 2, Sunday: 6, Paul: -3, David: 0, Ken: 3, Chris: 2, Bret: 2}
+CeCe: {Lucy: -2, David: 3, Jessica: -2, Sunday: -1, Paul: -8, Ken: 2, Chris: -3, Bret: -3}
+Ken: {Rachel: -2, Paul: -4, Bret: 4, David: 6, Chris: 4, CeCe: 2, Jessica: -1, Sunday: 5, Lucy: 3}
+Michaela: {Taylor: 0, Figgy: -7, Zeke: -1, Mari: -2, Michelle: 2, Will: 2, Jay: 2, Hannah: 2}
+Zeke: {Figgy: -5, Michaela: -1, Adam: 4, Mari: 2, Hannah: -2, Michelle: -1}
+Will: {Mari: -2, Figgy: 2, Michaela: 2, Michelle: 2, Taylor: 3, Jay: 2, Hannah: 2}
+Adam: {Figgy: -4, Mari: 2, Zeke: 4, Hannah: -2}
+
+
+# *** Relationship Strengths Directed ***
+# First 5 Episodes Strengths (Directed):
+Taylor: {Jay: 4, Figgy: 7, Michelle: 2, Mari: -2, Michaela: 1, Will: 2, Hannah: 1}
+Figgy: {Jay: 3, Taylor: 5, Michaela: -2, Mari: -2, Michelle: 1, Will: 1, Hannah: 1, Zeke: -2, Adam: -1}
+Jay: {Taylor: 3, Figgy: 3, Michelle: 3, Mari: -2, Michaela: 1, Will: 1, Hannah: 1}
+Michelle: {Hannah: 2, Figgy: 3, Jay: 3, Taylor: 2, Mari: -2, Michaela: 1, Will: 1, Zeke: 0, CeCe: -2, Chris: 1, David: 1}
+Hannah: {Michelle: 2, Mari: -1, Figgy: 0, Michaela: 1, Taylor: 1, Will: 1, Jay: 1, Zeke: -1, Adam: -1}
+Sunday: {Rachel: -1, CeCe: -2, Lucy: 3, Jessica: 1, Bret: 2, Chris: 2, Paul: -2, David: 1, Ken: 2}
+David: {Bret: 1, Chris: 2, Rachel: -2, Ken: 2, Paul: -5, Taylor: 1, Lucy: -2, Sunday: 1, CeCe: 1, Jessica: 4, Michelle: 0, Zeke: 1}
+Bret: {David: -1, Rachel: -4, Ken: 2, Paul: 2, Chris: 4, CeCe: -3, Sunday: 1, Lucy: 0, Jessica: -4}
+Chris: {David: -2, Rachel: -3, Ken: 2, Paul: 2, Bret: 4, CeCe: -6, Sunday: 1, Lucy: 0, Jessica: -4, Zeke: 2, Michelle: 1}
+Jessica: {David: 1, Rachel: -1, CeCe: -3, Lucy: 3, Sunday: 3, Chris: 1, Paul: -2, Bret: 1, Ken: 0}
+Mari: {Hannah: 1, Figgy: -4, Zeke: 1, Adam: 1}
+Rachel: {Sunday: -2}
+Paul: {Rachel: -2, Ken: 1, Bret: 2, David: -1, Chris: 2, CeCe: -4, Jessica: 1, Sunday: 1}
+Lucy: {CeCe: -1, Jessica: -1, Sunday: 3, Paul: -3, David: 2, Ken: 3, Bret: 2, Chris: 2}
+CeCe: {David: 1, Paul: -4, Ken: 2, Lucy: -1, Sunday: 1, Jessica: 1, Chris: 1, Michelle: -2}
+Ken: {Rachel: -2, Bret: 2, David: 4, Paul: -5, Chris: 2, CeCe: 0, Jessica: 1, Sunday: 3, Lucy: 0, Adam: 1}
+Michaela: {Taylor: -1, Figgy: -5, Mari: -2, Michelle: 1, Will: 1, Jay: 1, Hannah: 1}
+Zeke: {Figgy: -3, Michaela: -1, Adam: 2, Mari: 1, Hannah: -1, Michelle: 0, Chris: 2, CeCe: -3, David: 0}
+Will: {Mari: -2, Michaela: 1, Michelle: 1, Taylor: 1, Figgy: 1, Jay: 1, Hannah: 1}
+Adam: {Figgy: -4, Mari: 1, Zeke: 2, Hannah: -1, Taylor: -1}
+
+
+# *** Relationship Strengths Undirected ***
+# First 5 Episodes Strengths (Undirected):
+Taylor: {Jay: 7, Figgy: 12, Michelle: 4, Michaela: 0, Mari: -2, Will: 3, Hannah: 2, David: 1, Adam: -1}
+Jay: {Taylor: 7, Figgy: 6, Michelle: 6, Mari: -2, Michaela: 2, Will: 2, Hannah: 2}
+Figgy: {Taylor: 12, Jay: 6, Michaela: -7, Mari: -6, Zeke: -5, Hannah: 1, Michelle: 4, Adam: -5, Will: 2}
+Michelle: {Taylor: 4, Jay: 6, Hannah: 4, Figgy: 4, Mari: -2, Michaela: 2, Will: 2, Zeke: 0, David: 1, CeCe: -4, Chris: 2}
+Hannah: {Michelle: 4, Mari: 0, Figgy: 1, Michaela: 2, Taylor: 2, Will: 2, Jay: 2, Zeke: -2, Adam: -2}
+Sunday: {Rachel: -3, CeCe: -1, Lucy: 6, Jessica: 4, Ken: 5, Bret: 3, Chris: 3, Paul: -1, David: 2}
+Rachel: {Sunday: -3, Chris: -3, Jessica: -1, Bret: -4, Paul: -2, David: -2, Ken: -2}
+David: {Bret: 0, Chris: 0, Jessica: 5, CeCe: 2, Rachel: -2, Paul: -6, Ken: 6, Taylor: 1, Lucy: 0, Sunday: 2, Zeke: 1, Michelle: 1}
+Bret: {David: 0, Rachel: -4, Paul: 4, Ken: 4, Chris: 8, Jessica: -3, CeCe: -3, Sunday: 3, Lucy: 2}
+Chris: {David: 0, Rachel: -3, Paul: 4, Ken: 4, Bret: 8, Jessica: -3, CeCe: -5, Sunday: 3, Lucy: 2, Zeke: 4, Michelle: 2}
+Jessica: {David: 5, Rachel: -1, CeCe: -2, Lucy: 2, Sunday: 4, Ken: 1, Chris: -3, Paul: -1, Bret: -3}
+Mari: {Hannah: 0, Figgy: -6, Michaela: -2, Michelle: -2, Taylor: -2, Will: -2, Jay: -2, Adam: 2, Zeke: 2}
+Paul: {Rachel: -2, Ken: -4, Bret: 4, David: -6, Chris: 4, CeCe: -8, Jessica: -1, Sunday: -1, Lucy: -3}
+Lucy: {CeCe: -2, Jessica: 2, Sunday: 6, Paul: -3, David: 0, Ken: 3, Chris: 2, Bret: 2}
+CeCe: {Lucy: -2, David: 2, Jessica: -2, Sunday: -1, Paul: -8, Ken: 2, Chris: -5, Bret: -3, Zeke: -3, Michelle: -4}
+Ken: {Rachel: -2, Paul: -4, Bret: 4, David: 6, Chris: 4, CeCe: 2, Jessica: 1, Sunday: 5, Lucy: 3, Adam: 1}
+Michaela: {Taylor: 0, Figgy: -7, Zeke: -1, Mari: -2, Michelle: 2, Will: 2, Jay: 2, Hannah: 2}
+Zeke: {Figgy: -5, Michaela: -1, Adam: 4, Mari: 2, Hannah: -2, Michelle: 0, Chris: 4, CeCe: -3, David: 1}
+Will: {Mari: -2, Figgy: 2, Michaela: 2, Michelle: 2, Taylor: 3, Jay: 2, Hannah: 2}
+Adam: {Figgy: -5, Mari: 2, Zeke: 4, Hannah: -2, Taylor: -1, Ken: 1}
+
+
+# *** Relationship Strengths Directed ***
+# First 6 Episodes Strengths (Directed):
+Taylor: {Jay: 4, Figgy: 10, Michelle: 2, Mari: -2, Michaela: 1, Will: 2, Hannah: 1, Ken: -2}
+Figgy: {Jay: 3, Taylor: 7, Michaela: -2, Mari: -2, Michelle: 2, Will: 1, Hannah: 1, Zeke: -2, Adam: 0, Ken: -2}
+Jay: {Taylor: 3, Figgy: 3, Michelle: 3, Mari: -2, Michaela: 1, Will: 1, Hannah: 1}
+Michelle: {Hannah: 2, Figgy: 3, Jay: 3, Taylor: 2, Mari: -2, Michaela: 1, Will: 1, Zeke: 0, CeCe: -2, Chris: 1, David: 1}
+Hannah: {Michelle: 2, Mari: -1, Figgy: 0, Michaela: 1, Taylor: 1, Will: 1, Jay: 1, Zeke: -1, Adam: -1}
+Sunday: {Rachel: -1, CeCe: -2, Lucy: 3, Jessica: 1, Bret: 2, Chris: 2, Paul: -2, David: 1, Ken: 2}
+David: {Bret: 1, Chris: 2, Rachel: -2, Ken: 2, Paul: -5, Taylor: 1, Lucy: -2, Sunday: 1, CeCe: 1, Jessica: 4, Michelle: 0, Zeke: 1}
+Bret: {David: -1, Rachel: -4, Ken: 2, Paul: 2, Chris: 4, CeCe: -3, Sunday: 1, Lucy: 0, Jessica: -4}
+Chris: {David: -2, Rachel: -3, Ken: 2, Paul: 2, Bret: 4, CeCe: -6, Sunday: 1, Lucy: 0, Jessica: -4, Zeke: 2, Michelle: 1}
+Jessica: {David: 1, Rachel: -1, CeCe: -3, Lucy: 3, Sunday: 3, Chris: 1, Paul: -2, Bret: 1, Ken: 2, Figgy: -2, Adam: 1}
+Mari: {Hannah: 1, Figgy: -4, Zeke: 1, Adam: 1}
+Rachel: {Sunday: -2}
+Paul: {Rachel: -2, Ken: 1, Bret: 2, David: -1, Chris: 2, CeCe: -4, Jessica: 1, Sunday: 1}
+Lucy: {CeCe: -1, Jessica: -1, Sunday: 3, Paul: -3, David: 2, Ken: 3, Bret: 2, Chris: 2}
+CeCe: {David: 1, Paul: -4, Ken: 2, Lucy: -1, Sunday: 1, Jessica: 1, Chris: 1, Michelle: -2}
+Ken: {Rachel: -2, Bret: 2, David: 4, Paul: -5, Chris: 2, CeCe: 0, Jessica: 2, Sunday: 3, Lucy: 0, Adam: 2, Figgy: -2}
+Michaela: {Taylor: -1, Figgy: -5, Mari: -2, Michelle: 1, Will: 1, Jay: 1, Hannah: 1}
+Zeke: {Figgy: -3, Michaela: -1, Adam: 2, Mari: 1, Hannah: -1, Michelle: 0, Chris: 2, CeCe: -3, David: 0}
+Will: {Mari: -2, Michaela: 1, Michelle: 1, Taylor: 1, Figgy: 1, Jay: 1, Hannah: 1}
+Adam: {Figgy: -6, Mari: 1, Zeke: 2, Hannah: -1, Taylor: -1, Jessica: 1, Ken: 1}
+
+
+# *** Relationship Strengths Undirected ***
+# First 6 Episodes Strengths (Undirected):
+Taylor: {Jay: 7, Figgy: 17, Michelle: 4, Michaela: 0, Mari: -2, Will: 3, Hannah: 2, David: 1, Adam: -1, Ken: -2}
+Jay: {Taylor: 7, Figgy: 6, Michelle: 6, Mari: -2, Michaela: 2, Will: 2, Hannah: 2}
+Figgy: {Taylor: 17, Jay: 6, Michaela: -7, Mari: -6, Zeke: -5, Hannah: 1, Michelle: 5, Adam: -6, Will: 2, Ken: -4, Jessica: -2}
+Michelle: {Taylor: 4, Jay: 6, Hannah: 4, Figgy: 5, Mari: -2, Michaela: 2, Will: 2, Zeke: 0, David: 1, CeCe: -4, Chris: 2}
+Hannah: {Michelle: 4, Mari: 0, Figgy: 1, Michaela: 2, Taylor: 2, Will: 2, Jay: 2, Zeke: -2, Adam: -2}
+Sunday: {Rachel: -3, CeCe: -1, Lucy: 6, Jessica: 4, Ken: 5, Bret: 3, Chris: 3, Paul: -1, David: 2}
+Rachel: {Sunday: -3, Chris: -3, Jessica: -1, Bret: -4, Paul: -2, David: -2, Ken: -2}
+David: {Bret: 0, Chris: 0, Jessica: 5, CeCe: 2, Rachel: -2, Paul: -6, Ken: 6, Taylor: 1, Lucy: 0, Sunday: 2, Zeke: 1, Michelle: 1}
+Bret: {David: 0, Rachel: -4, Paul: 4, Ken: 4, Chris: 8, Jessica: -3, CeCe: -3, Sunday: 3, Lucy: 2}
+Chris: {David: 0, Rachel: -3, Paul: 4, Ken: 4, Bret: 8, Jessica: -3, CeCe: -5, Sunday: 3, Lucy: 2, Zeke: 4, Michelle: 2}
+Jessica: {David: 5, Rachel: -1, CeCe: -2, Lucy: 2, Sunday: 4, Ken: 4, Chris: -3, Paul: -1, Bret: -3, Figgy: -2, Adam: 2}
+Mari: {Hannah: 0, Figgy: -6, Michaela: -2, Michelle: -2, Taylor: -2, Will: -2, Jay: -2, Adam: 2, Zeke: 2}
+Paul: {Rachel: -2, Ken: -4, Bret: 4, David: -6, Chris: 4, CeCe: -8, Jessica: -1, Sunday: -1, Lucy: -3}
+Lucy: {CeCe: -2, Jessica: 2, Sunday: 6, Paul: -3, David: 0, Ken: 3, Chris: 2, Bret: 2}
+CeCe: {Lucy: -2, David: 2, Jessica: -2, Sunday: -1, Paul: -8, Ken: 2, Chris: -5, Bret: -3, Zeke: -3, Michelle: -4}
+Ken: {Rachel: -2, Paul: -4, Bret: 4, David: 6, Chris: 4, CeCe: 2, Jessica: 4, Sunday: 5, Lucy: 3, Adam: 3, Figgy: -4, Taylor: -2}
+Michaela: {Taylor: 0, Figgy: -7, Zeke: -1, Mari: -2, Michelle: 2, Will: 2, Jay: 2, Hannah: 2}
+Zeke: {Figgy: -5, Michaela: -1, Adam: 4, Mari: 2, Hannah: -2, Michelle: 0, Chris: 4, CeCe: -3, David: 1}
+Will: {Mari: -2, Figgy: 2, Michaela: 2, Michelle: 2, Taylor: 3, Jay: 2, Hannah: 2}
+Adam: {Figgy: -6, Mari: 2, Zeke: 4, Hannah: -2, Taylor: -1, Ken: 3, Jessica: 2}
+
+
+# *** Relationship Strengths Directed ***
+# First 7 Episodes Strengths (Directed):
+Taylor: {Jay: 4, Figgy: 10, Michelle: 2, Mari: -2, Michaela: 1, Will: 2, Hannah: 1, Ken: -1, Adam: -1, Jessica: 1}
+Figgy: {Jay: 3, Taylor: 7, Michaela: -2, Mari: -2, Michelle: 2, Will: 1, Hannah: 1, Zeke: -2, Adam: 0, Ken: -2}
+Jay: {Taylor: 3, Figgy: 3, Michelle: 3, Mari: -2, Michaela: -1, Will: 3, Hannah: 2, Bret: -1, Sunday: 1}
+Michelle: {Hannah: 2, Figgy: 3, Jay: 3, Taylor: 2, Mari: -2, Michaela: 1, Will: 1, Zeke: 0, CeCe: -2, Chris: 1, David: 1}
+Hannah: {Michelle: 2, Mari: -1, Figgy: 0, Michaela: 3, Taylor: 1, Will: 2, Jay: 2, Zeke: -1, Adam: -1, Bret: -3}
+Sunday: {Rachel: -1, CeCe: -2, Lucy: 3, Jessica: 1, Bret: 4, Chris: 2, Paul: -2, David: 1, Ken: 2, Michaela: -2, Will: 1, Jay: 1}
+David: {Bret: 1, Chris: 2, Rachel: -2, Ken: 2, Paul: -5, Taylor: 1, Lucy: -2, Sunday: 1, CeCe: 1, Jessica: 4, Michelle: 0, Zeke: 2}
+Bret: {David: -1, Rachel: -4, Ken: 2, Paul: 2, Chris: 4, CeCe: -3, Sunday: 3, Lucy: 0, Jessica: -4, Michaela: -2, Will: 1, Jay: 1}
+Chris: {David: -2, Rachel: -3, Ken: 2, Paul: 2, Bret: 4, CeCe: -6, Sunday: 1, Lucy: 0, Jessica: -4, Zeke: 2, Michelle: 1}
+Jessica: {David: 1, Rachel: -1, CeCe: -3, Lucy: 3, Sunday: 3, Chris: 1, Paul: -2, Bret: 1, Ken: 2, Figgy: -2, Adam: 1}
+Mari: {Hannah: 1, Figgy: -4, Zeke: 1, Adam: 1}
+Rachel: {Sunday: -2}
+Paul: {Rachel: -2, Ken: 1, Bret: 2, David: -1, Chris: 2, CeCe: -4, Jessica: 1, Sunday: 1}
+Lucy: {CeCe: -1, Jessica: -1, Sunday: 3, Paul: -3, David: 2, Ken: 3, Bret: 2, Chris: 2}
+CeCe: {David: 1, Paul: -4, Ken: 2, Lucy: -1, Sunday: 1, Jessica: 1, Chris: 1, Michelle: -2}
+Ken: {Rachel: -2, Bret: 2, David: 4, Paul: -5, Chris: 2, CeCe: 0, Jessica: 2, Sunday: 3, Lucy: 0, Adam: 2, Figgy: -2}
+Michaela: {Taylor: -1, Figgy: -5, Mari: -2, Michelle: 1, Will: 2, Jay: 2, Hannah: 3, Bret: -2}
+Zeke: {Figgy: -3, Michaela: -1, Adam: 2, Mari: 1, Hannah: -1, Michelle: 0, Chris: 2, CeCe: -3, David: 1}
+Will: {Mari: -2, Michaela: 0, Michelle: 1, Taylor: 1, Figgy: 1, Jay: 3, Hannah: 2, Bret: 0, Sunday: 1}
+Adam: {Figgy: -6, Mari: 1, Zeke: 2, Hannah: -1, Taylor: -1, Jessica: 1, Ken: 1}
+
+
+# *** Relationship Strengths Undirected ***
+# First 7 Episodes Strengths (Undirected):
+Taylor: {Jay: 7, Figgy: 17, Michelle: 4, Michaela: 0, Mari: -2, Will: 3, Hannah: 2, David: 1, Adam: -2, Ken: -1, Jessica: 1}
+Jay: {Taylor: 7, Figgy: 6, Michelle: 6, Mari: -2, Michaela: 1, Will: 6, Hannah: 4, Bret: 0, Sunday: 2}
+Figgy: {Taylor: 17, Jay: 6, Michaela: -7, Mari: -6, Zeke: -5, Hannah: 1, Michelle: 5, Adam: -6, Will: 2, Ken: -4, Jessica: -2}
+Michelle: {Taylor: 4, Jay: 6, Hannah: 4, Figgy: 5, Mari: -2, Michaela: 2, Will: 2, Zeke: 0, David: 1, CeCe: -4, Chris: 2}
+Hannah: {Michelle: 4, Mari: 0, Figgy: 1, Michaela: 6, Taylor: 2, Will: 4, Jay: 4, Zeke: -2, Adam: -2, Bret: -3}
+Sunday: {Rachel: -3, CeCe: -1, Lucy: 6, Jessica: 4, Ken: 5, Bret: 7, Chris: 3, Paul: -1, David: 2, Michaela: -2, Will: 2, Jay: 2}
+Rachel: {Sunday: -3, Chris: -3, Jessica: -1, Bret: -4, Paul: -2, David: -2, Ken: -2}
+David: {Bret: 0, Chris: 0, Jessica: 5, CeCe: 2, Rachel: -2, Paul: -6, Ken: 6, Taylor: 1, Lucy: 0, Sunday: 2, Zeke: 3, Michelle: 1}
+Bret: {David: 0, Rachel: -4, Paul: 4, Ken: 4, Chris: 8, Jessica: -3, CeCe: -3, Sunday: 7, Lucy: 2, Hannah: -3, Jay: 0, Will: 1, Michaela: -4}
+Chris: {David: 0, Rachel: -3, Paul: 4, Ken: 4, Bret: 8, Jessica: -3, CeCe: -5, Sunday: 3, Lucy: 2, Zeke: 4, Michelle: 2}
+Jessica: {David: 5, Rachel: -1, CeCe: -2, Lucy: 2, Sunday: 4, Ken: 4, Chris: -3, Paul: -1, Bret: -3, Figgy: -2, Adam: 2, Taylor: 1}
+Mari: {Hannah: 0, Figgy: -6, Michaela: -2, Michelle: -2, Taylor: -2, Will: -2, Jay: -2, Adam: 2, Zeke: 2}
+Paul: {Rachel: -2, Ken: -4, Bret: 4, David: -6, Chris: 4, CeCe: -8, Jessica: -1, Sunday: -1, Lucy: -3}
+Lucy: {CeCe: -2, Jessica: 2, Sunday: 6, Paul: -3, David: 0, Ken: 3, Chris: 2, Bret: 2}
+CeCe: {Lucy: -2, David: 2, Jessica: -2, Sunday: -1, Paul: -8, Ken: 2, Chris: -5, Bret: -3, Zeke: -3, Michelle: -4}
+Ken: {Rachel: -2, Paul: -4, Bret: 4, David: 6, Chris: 4, CeCe: 2, Jessica: 4, Sunday: 5, Lucy: 3, Adam: 3, Figgy: -4, Taylor: -1}
+Michaela: {Taylor: 0, Figgy: -7, Zeke: -1, Mari: -2, Michelle: 2, Will: 2, Jay: 1, Hannah: 6, Bret: -4, Sunday: -2}
+Zeke: {Figgy: -5, Michaela: -1, Adam: 4, Mari: 2, Hannah: -2, Michelle: 0, Chris: 4, CeCe: -3, David: 3}
+Will: {Mari: -2, Figgy: 2, Michaela: 2, Michelle: 2, Taylor: 3, Jay: 6, Hannah: 4, Bret: 1, Sunday: 2}
+Adam: {Figgy: -6, Mari: 2, Zeke: 4, Hannah: -2, Taylor: -2, Ken: 3, Jessica: 2}
+
+
+# *** Relationship Strengths Directed ***
+# First 8 Episodes Strengths (Directed):
+Taylor: {Jay: 5, Figgy: 10, Michelle: 3, Mari: -2, Michaela: 1, Will: 3, Hannah: 1, Ken: -1, Adam: -6, Jessica: 1}
+Figgy: {Jay: 3, Taylor: 7, Michaela: -2, Mari: -2, Michelle: 2, Will: 1, Hannah: 1, Zeke: -2, Adam: 0, Ken: -2}
+Jay: {Taylor: 5, Figgy: 3, Michelle: 6, Mari: -2, Michaela: -1, Will: 6, Hannah: 3, Bret: 0, Sunday: 2, Adam: -4}
+Michelle: {Hannah: 2, Figgy: 3, Jay: 6, Taylor: 4, Mari: -2, Michaela: 1, Will: 3, Zeke: 0, CeCe: -2, Chris: 1, David: 1, Adam: -2}
+Hannah: {Michelle: 0, Mari: -1, Figgy: 0, Michaela: 3, Taylor: 1, Will: 1, Jay: 1, Zeke: 0, Adam: -1, Bret: -2, David: 1, Chris: 1, Sunday: 1, Ken: 1, Jessica: 1}
+Sunday: {Rachel: -1, CeCe: -2, Lucy: 3, Jessica: 2, Bret: 5, Chris: 3, Paul: -2, David: 2, Ken: 3, Michaela: -2, Will: 1, Jay: 1, Michelle: -2, Hannah: 1, Adam: 1, Zeke: 1}
+David: {Bret: 2, Chris: 3, Rachel: -2, Ken: 5, Paul: -5, Taylor: -1, Lucy: -2, Sunday: 2, CeCe: 1, Jessica: 6, Michelle: -3, Zeke: 4, Jay: -1, Hannah: 1, Adam: 1}
+Bret: {David: 0, Rachel: -4, Ken: 3, Paul: 2, Chris: 7, CeCe: -3, Sunday: 5, Lucy: 0, Jessica: -3, Michaela: -2, Will: 1, Jay: 1, Taylor: -2, Michelle: -2, Hannah: 1, Adam: 1, Zeke: 1}
+Chris: {David: 0, Rachel: -3, Ken: 3, Paul: 2, Bret: 6, CeCe: -6, Sunday: 3, Lucy: 0, Jessica: -3, Zeke: 4, Michelle: -1, Taylor: -1, Hannah: 1, Adam: 1}
+Jessica: {David: 3, Rachel: -1, CeCe: -3, Lucy: 3, Sunday: 4, Chris: 2, Paul: -2, Bret: 2, Ken: 4, Figgy: -2, Adam: 2, Zeke: 2, Taylor: -1, Michelle: -2, Hannah: 1}
+Mari: {Hannah: 1, Figgy: -4, Zeke: 1, Adam: 1}
+Rachel: {Sunday: -2}
+Paul: {Rachel: -2, Ken: 1, Bret: 2, David: -1, Chris: 2, CeCe: -4, Jessica: 1, Sunday: 1}
+Lucy: {CeCe: -1, Jessica: -1, Sunday: 3, Paul: -3, David: 2, Ken: 3, Bret: 2, Chris: 2}
+CeCe: {David: 1, Paul: -4, Ken: 2, Lucy: -1, Sunday: 1, Jessica: 1, Chris: 1, Michelle: -2}
+Ken: {Rachel: -2, Bret: 3, David: 7, Paul: -5, Chris: 3, CeCe: 0, Jessica: 4, Sunday: 4, Lucy: 0, Adam: 3, Figgy: -2, Zeke: 2, Taylor: -1, Michelle: -2, Hannah: 1}
+Michaela: {Taylor: -1, Figgy: -5, Mari: -2, Michelle: 1, Will: 2, Jay: 2, Hannah: 3, Bret: -2}
+Zeke: {Figgy: -3, Michaela: -1, Adam: 3, Mari: 1, Hannah: 1, Michelle: -2, Chris: 3, CeCe: -3, David: 3, Jay: -2, Ken: 2, Jessica: 2, Taylor: -3, Bret: 1, Sunday: 1}
+Will: {Mari: -2, Michaela: 0, Michelle: 3, Taylor: 2, Figgy: 1, Jay: 5, Hannah: 2, Bret: 0, Sunday: 1, Adam: -3}
+Adam: {Figgy: -6, Mari: 1, Zeke: 3, Hannah: 0, Taylor: 0, Jessica: 2, Ken: 2, Will: -2, Michelle: -2, David: 1, Bret: 1, Chris: 1, Sunday: 1}
+
+
+# *** Relationship Strengths Undirected ***
+# First 8 Episodes Strengths (Undirected):
+Taylor: {Jay: 10, Figgy: 17, Michelle: 7, Michaela: 0, Mari: -2, Will: 5, Hannah: 2, David: -1, Adam: -6, Ken: -2, Jessica: 0, Bret: -2, Zeke: -3, Chris: -1}
+Jay: {Taylor: 10, Figgy: 6, Michelle: 12, Mari: -2, Michaela: 1, Will: 11, Hannah: 4, Bret: 1, Sunday: 3, Zeke: -2, Adam: -4, David: -1}
+Figgy: {Taylor: 17, Jay: 6, Michaela: -7, Mari: -6, Zeke: -5, Hannah: 1, Michelle: 5, Adam: -6, Will: 2, Ken: -4, Jessica: -2}
+Michelle: {Taylor: 7, Jay: 12, Hannah: 2, Figgy: 5, Mari: -2, Michaela: 2, Will: 6, Zeke: -2, David: -2, CeCe: -4, Chris: 0, Adam: -4, Bret: -2, Sunday: -2, Ken: -2, Jessica: -2}
+Hannah: {Michelle: 2, Mari: 0, Figgy: 1, Michaela: 6, Taylor: 2, Will: 3, Jay: 4, Zeke: 1, Adam: -1, Bret: -1, David: 2, Chris: 2, Sunday: 2, Ken: 2, Jessica: 2}
+Sunday: {Rachel: -3, CeCe: -1, Lucy: 6, Jessica: 6, Ken: 7, Bret: 10, Chris: 6, Paul: -1, David: 4, Michaela: -2, Will: 2, Jay: 3, Michelle: -2, Hannah: 2, Adam: 2, Zeke: 2}
+Rachel: {Sunday: -3, Chris: -3, Jessica: -1, Bret: -4, Paul: -2, David: -2, Ken: -2}
+David: {Bret: 2, Chris: 3, Jessica: 9, CeCe: 2, Rachel: -2, Paul: -6, Ken: 12, Taylor: -1, Lucy: 0, Sunday: 4, Zeke: 7, Michelle: -2, Jay: -1, Hannah: 2, Adam: 2}
+Bret: {David: 2, Rachel: -4, Paul: 4, Ken: 6, Chris: 13, Jessica: -1, CeCe: -3, Sunday: 10, Lucy: 2, Hannah: -1, Jay: 1, Will: 1, Michaela: -4, Taylor: -2, Michelle: -2, Adam: 2, Zeke: 2}
+Chris: {David: 3, Rachel: -3, Paul: 4, Ken: 6, Bret: 13, Jessica: -1, CeCe: -5, Sunday: 6, Lucy: 2, Zeke: 7, Michelle: 0, Taylor: -1, Hannah: 2, Adam: 2}
+Jessica: {David: 9, Rachel: -1, CeCe: -2, Lucy: 2, Sunday: 6, Ken: 8, Chris: -1, Paul: -1, Bret: -1, Figgy: -2, Adam: 4, Taylor: 0, Zeke: 4, Michelle: -2, Hannah: 2}
+Mari: {Hannah: 0, Figgy: -6, Michaela: -2, Michelle: -2, Taylor: -2, Will: -2, Jay: -2, Adam: 2, Zeke: 2}
+Paul: {Rachel: -2, Ken: -4, Bret: 4, David: -6, Chris: 4, CeCe: -8, Jessica: -1, Sunday: -1, Lucy: -3}
+Lucy: {CeCe: -2, Jessica: 2, Sunday: 6, Paul: -3, David: 0, Ken: 3, Chris: 2, Bret: 2}
+CeCe: {Lucy: -2, David: 2, Jessica: -2, Sunday: -1, Paul: -8, Ken: 2, Chris: -5, Bret: -3, Zeke: -3, Michelle: -4}
+Ken: {Rachel: -2, Paul: -4, Bret: 6, David: 12, Chris: 6, CeCe: 2, Jessica: 8, Sunday: 7, Lucy: 3, Adam: 5, Figgy: -4, Taylor: -2, Zeke: 4, Michelle: -2, Hannah: 2}
+Michaela: {Taylor: 0, Figgy: -7, Zeke: -1, Mari: -2, Michelle: 2, Will: 2, Jay: 1, Hannah: 6, Bret: -4, Sunday: -2}
+Zeke: {Figgy: -5, Michaela: -1, Adam: 6, Mari: 2, Hannah: 1, Michelle: -2, Chris: 7, CeCe: -3, David: 7, Jay: -2, Jessica: 4, Ken: 4, Taylor: -3, Bret: 2, Sunday: 2}
+Will: {Mari: -2, Figgy: 2, Michaela: 2, Michelle: 6, Taylor: 5, Jay: 11, Hannah: 3, Bret: 1, Sunday: 2, Adam: -5}
+Adam: {Figgy: -6, Mari: 2, Zeke: 6, Hannah: -1, Taylor: -6, Ken: 5, Jessica: 4, Will: -5, Jay: -4, Michelle: -4, David: 2, Bret: 2, Chris: 2, Sunday: 2}
+
+
+# *** Relationship Strengths Directed ***
+# First 9 Episodes Strengths (Directed):
+Taylor: {Jay: 7, Figgy: 10, Michelle: 3, Mari: -2, Michaela: 1, Will: 4, Hannah: 1, Ken: -1, Adam: -11, Jessica: 1}
+Figgy: {Jay: 3, Taylor: 7, Michaela: -2, Mari: -2, Michelle: 2, Will: 1, Hannah: 1, Zeke: -2, Adam: 0, Ken: -2}
+Jay: {Taylor: 4, Figgy: 3, Michelle: 6, Mari: -2, Michaela: -1, Will: 7, Hannah: 2, Bret: 0, Sunday: 4, Adam: -7, Zeke: 0, Jessica: -1, Ken: 1, David: 1, Chris: 1}
+Michelle: {Hannah: 2, Figgy: 3, Jay: 6, Taylor: 4, Mari: -2, Michaela: 1, Will: 3, Zeke: 0, CeCe: -2, Chris: 1, David: 1, Adam: -2}
+Hannah: {Michelle: 0, Mari: -1, Figgy: 0, Michaela: 3, Taylor: 1, Will: 3, Jay: 0, Zeke: 1, Adam: -1, Bret: -1, David: 1, Chris: 1, Sunday: 1, Ken: 1, Jessica: 3}
+Sunday: {Rachel: -1, CeCe: -2, Lucy: 3, Jessica: 0, Bret: 6, Chris: 5, Paul: -2, David: 3, Ken: 4, Michaela: -2, Will: 1, Jay: 4, Michelle: -2, Hannah: 1, Adam: 2, Zeke: 2, Taylor: -2}
+David: {Bret: 2, Chris: 4, Rachel: -2, Ken: 6, Paul: -5, Taylor: -5, Lucy: -2, Sunday: 3, CeCe: 1, Jessica: 6, Michelle: -3, Zeke: 5, Jay: -1, Hannah: 1, Adam: 1}
+Bret: {David: 0, Rachel: -4, Ken: 3, Paul: 2, Chris: 8, CeCe: -3, Sunday: 6, Lucy: 0, Jessica: -3, Michaela: -2, Will: 2, Jay: -1, Taylor: -2, Michelle: -2, Hannah: 2, Adam: 1, Zeke: 1}
+Chris: {David: 2, Rachel: -3, Ken: 5, Paul: 2, Bret: 8, CeCe: -6, Sunday: 6, Lucy: 0, Jessica: -3, Zeke: 5, Michelle: -1, Taylor: -2, Hannah: 1, Adam: 2, Jay: 1}
+Jessica: {David: 3, Rachel: -1, CeCe: -3, Lucy: 3, Sunday: 4, Chris: 2, Paul: -2, Bret: 3, Ken: 4, Figgy: -2, Adam: 2, Zeke: 2, Taylor: -1, Michelle: -2, Hannah: 2, Jay: -2, Will: 1}
+Mari: {Hannah: 1, Figgy: -4, Zeke: 1, Adam: 1}
+Rachel: {Sunday: -2}
+Paul: {Rachel: -2, Ken: 1, Bret: 2, David: -1, Chris: 2, CeCe: -4, Jessica: 1, Sunday: 1}
+Lucy: {CeCe: -1, Jessica: -1, Sunday: 3, Paul: -3, David: 2, Ken: 3, Bret: 2, Chris: 2}
+CeCe: {David: 1, Paul: -4, Ken: 2, Lucy: -1, Sunday: 1, Jessica: 1, Chris: 1, Michelle: -2}
+Ken: {Rachel: -2, Bret: 3, David: 8, Paul: -5, Chris: 4, CeCe: 0, Jessica: 4, Sunday: 5, Lucy: 0, Adam: 4, Figgy: -2, Zeke: 3, Taylor: -3, Michelle: -2, Hannah: 1, Jay: 1}
+Michaela: {Taylor: -1, Figgy: -5, Mari: -2, Michelle: 1, Will: 2, Jay: 2, Hannah: 3, Bret: -2}
+Zeke: {Figgy: -3, Michaela: -1, Adam: 3, Mari: 1, Hannah: 1, Michelle: -2, Chris: 4, CeCe: -3, David: 4, Jay: -1, Ken: 3, Jessica: 2, Taylor: -5, Bret: 1, Sunday: 2}
+Will: {Mari: -2, Michaela: 0, Michelle: 3, Taylor: 3, Figgy: 1, Jay: 4, Hannah: 3, Bret: 1, Sunday: 1, Adam: -3, Jessica: 1}
+Adam: {Figgy: -6, Mari: 1, Zeke: 4, Hannah: 0, Taylor: -4, Jessica: 2, Ken: 3, Will: -2, Michelle: -2, David: 2, Bret: 1, Chris: 2, Sunday: 2, Jay: 0}
+
+
+# *** Relationship Strengths Undirected ***
+# First 9 Episodes Strengths (Undirected):
+Taylor: {Jay: 11, Figgy: 17, Michelle: 7, Michaela: 0, Mari: -2, Will: 7, Hannah: 2, David: -5, Adam: -15, Ken: -4, Jessica: 0, Bret: -2, Zeke: -5, Chris: -2, Sunday: -2}
+Jay: {Taylor: 11, Figgy: 6, Michelle: 12, Mari: -2, Michaela: 1, Will: 11, Hannah: 2, Bret: -1, Sunday: 8, Zeke: -1, Adam: -7, David: 0, Jessica: -3, Ken: 2, Chris: 2}
+Figgy: {Taylor: 17, Jay: 6, Michaela: -7, Mari: -6, Zeke: -5, Hannah: 1, Michelle: 5, Adam: -6, Will: 2, Ken: -4, Jessica: -2}
+Michelle: {Taylor: 7, Jay: 12, Hannah: 2, Figgy: 5, Mari: -2, Michaela: 2, Will: 6, Zeke: -2, David: -2, CeCe: -4, Chris: 0, Adam: -4, Bret: -2, Sunday: -2, Ken: -2, Jessica: -2}
+Hannah: {Michelle: 2, Mari: 0, Figgy: 1, Michaela: 6, Taylor: 2, Will: 6, Jay: 2, Zeke: 2, Adam: -1, Bret: 1, David: 2, Chris: 2, Sunday: 2, Ken: 2, Jessica: 5}
+Sunday: {Rachel: -3, CeCe: -1, Lucy: 6, Jessica: 4, Ken: 9, Bret: 12, Chris: 11, Paul: -1, David: 6, Michaela: -2, Will: 2, Jay: 8, Michelle: -2, Hannah: 2, Adam: 4, Zeke: 4, Taylor: -2}
+Rachel: {Sunday: -3, Chris: -3, Jessica: -1, Bret: -4, Paul: -2, David: -2, Ken: -2}
+David: {Bret: 2, Chris: 6, Jessica: 9, CeCe: 2, Rachel: -2, Paul: -6, Ken: 14, Taylor: -5, Lucy: 0, Sunday: 6, Zeke: 9, Michelle: -2, Jay: 0, Hannah: 2, Adam: 3}
+Bret: {David: 2, Rachel: -4, Paul: 4, Ken: 6, Chris: 16, Jessica: 0, CeCe: -3, Sunday: 12, Lucy: 2, Hannah: 1, Jay: -1, Will: 3, Michaela: -4, Taylor: -2, Michelle: -2, Adam: 2, Zeke: 2}
+Chris: {David: 6, Rachel: -3, Paul: 4, Ken: 9, Bret: 16, Jessica: -1, CeCe: -5, Sunday: 11, Lucy: 2, Zeke: 9, Michelle: 0, Taylor: -2, Hannah: 2, Adam: 4, Jay: 2}
+Jessica: {David: 9, Rachel: -1, CeCe: -2, Lucy: 2, Sunday: 4, Ken: 8, Chris: -1, Paul: -1, Bret: 0, Figgy: -2, Adam: 4, Taylor: 0, Zeke: 4, Michelle: -2, Hannah: 5, Jay: -3, Will: 2}
+Mari: {Hannah: 0, Figgy: -6, Michaela: -2, Michelle: -2, Taylor: -2, Will: -2, Jay: -2, Adam: 2, Zeke: 2}
+Paul: {Rachel: -2, Ken: -4, Bret: 4, David: -6, Chris: 4, CeCe: -8, Jessica: -1, Sunday: -1, Lucy: -3}
+Lucy: {CeCe: -2, Jessica: 2, Sunday: 6, Paul: -3, David: 0, Ken: 3, Chris: 2, Bret: 2}
+CeCe: {Lucy: -2, David: 2, Jessica: -2, Sunday: -1, Paul: -8, Ken: 2, Chris: -5, Bret: -3, Zeke: -3, Michelle: -4}
+Ken: {Rachel: -2, Paul: -4, Bret: 6, David: 14, Chris: 9, CeCe: 2, Jessica: 8, Sunday: 9, Lucy: 3, Adam: 7, Figgy: -4, Taylor: -4, Zeke: 6, Michelle: -2, Hannah: 2, Jay: 2}
+Michaela: {Taylor: 0, Figgy: -7, Zeke: -1, Mari: -2, Michelle: 2, Will: 2, Jay: 1, Hannah: 6, Bret: -4, Sunday: -2}
+Zeke: {Figgy: -5, Michaela: -1, Adam: 7, Mari: 2, Hannah: 2, Michelle: -2, Chris: 9, CeCe: -3, David: 9, Jay: -1, Jessica: 4, Ken: 6, Taylor: -5, Bret: 2, Sunday: 4}
+Will: {Mari: -2, Figgy: 2, Michaela: 2, Michelle: 6, Taylor: 7, Jay: 11, Hannah: 6, Bret: 3, Sunday: 2, Adam: -5, Jessica: 2}
+Adam: {Figgy: -6, Mari: 2, Zeke: 7, Hannah: -1, Taylor: -15, Ken: 7, Jessica: 4, Will: -5, Jay: -7, Michelle: -4, David: 3, Bret: 2, Chris: 4, Sunday: 4}
+
+
+# *** Relationship Strengths Directed ***
+# First 10 Episodes Strengths (Directed):
+Taylor: {Jay: 7, Figgy: 10, Michelle: 3, Mari: -2, Michaela: 1, Will: 4, Hannah: 1, Ken: -1, Adam: -11, Jessica: 1}
+Figgy: {Jay: 3, Taylor: 7, Michaela: -2, Mari: -2, Michelle: 2, Will: 1, Hannah: 1, Zeke: -2, Adam: 0, Ken: -2}
+Jay: {Taylor: 4, Figgy: 3, Michelle: 6, Mari: -2, Michaela: -1, Will: 7, Hannah: 2, Bret: 1, Sunday: 5, Adam: -7, Zeke: 0, Jessica: -3, Ken: 1, David: 1, Chris: 2}
+Michelle: {Hannah: 2, Figgy: 3, Jay: 6, Taylor: 4, Mari: -2, Michaela: 1, Will: 3, Zeke: 0, CeCe: -2, Chris: 1, David: 1, Adam: -2}
+Hannah: {Michelle: 0, Mari: -1, Figgy: 0, Michaela: 3, Taylor: 1, Will: 4, Jay: 0, Zeke: 3, Adam: 0, Bret: -1, David: 2, Chris: -1, Sunday: 1, Ken: 3, Jessica: 4}
+Sunday: {Rachel: -1, CeCe: -2, Lucy: 3, Jessica: -2, Bret: 7, Chris: 6, Paul: -2, David: 3, Ken: 4, Michaela: -2, Will: 1, Jay: 5, Michelle: -2, Hannah: 1, Adam: 2, Zeke: 2, Taylor: -2}
+David: {Bret: 1, Chris: 1, Rachel: -2, Ken: 9, Paul: -5, Taylor: -5, Lucy: -2, Sunday: 2, CeCe: 1, Jessica: 9, Michelle: -3, Zeke: 6, Jay: -1, Hannah: 3, Adam: 2, Will: 1}
+Bret: {David: 0, Rachel: -4, Ken: 3, Paul: 2, Chris: 10, CeCe: -3, Sunday: 8, Lucy: 0, Jessica: -5, Michaela: -2, Will: 2, Jay: 0, Taylor: -2, Michelle: -2, Hannah: 2, Adam: 1, Zeke: 3}
+Chris: {David: 3, Rachel: -3, Ken: 5, Paul: 2, Bret: 11, CeCe: -6, Sunday: 8, Lucy: 0, Jessica: -6, Zeke: 6, Michelle: -1, Taylor: -2, Hannah: 1, Adam: 2, Jay: 2}
+Jessica: {David: 4, Rachel: -1, CeCe: -3, Lucy: 3, Sunday: 3, Chris: -1, Paul: -2, Bret: 2, Ken: 5, Figgy: -2, Adam: 3, Zeke: 3, Taylor: -1, Michelle: -2, Hannah: 3, Jay: -2, Will: 2}
+Mari: {Hannah: 1, Figgy: -4, Zeke: 1, Adam: 1}
+Rachel: {Sunday: -2}
+Paul: {Rachel: -2, Ken: 1, Bret: 2, David: -1, Chris: 2, CeCe: -4, Jessica: 1, Sunday: 1}
+Lucy: {CeCe: -1, Jessica: -1, Sunday: 3, Paul: -3, David: 2, Ken: 3, Bret: 2, Chris: 2}
+CeCe: {David: 1, Paul: -4, Ken: 2, Lucy: -1, Sunday: 1, Jessica: 1, Chris: 1, Michelle: -2}
+Ken: {Rachel: -2, Bret: 3, David: 10, Paul: -5, Chris: 2, CeCe: 0, Jessica: 5, Sunday: 5, Lucy: 0, Adam: 5, Figgy: -2, Zeke: 4, Taylor: -3, Michelle: -2, Hannah: 2, Jay: 1, Will: 1}
+Michaela: {Taylor: -1, Figgy: -5, Mari: -2, Michelle: 1, Will: 2, Jay: 2, Hannah: 3, Bret: -2}
+Zeke: {Figgy: -3, Michaela: -1, Adam: 4, Mari: 1, Hannah: 5, Michelle: -2, Chris: 3, CeCe: -3, David: 7, Jay: -1, Ken: 4, Jessica: 2, Taylor: -5, Bret: 1, Sunday: 2, Will: 2}
+Will: {Mari: -2, Michaela: 0, Michelle: 3, Taylor: 3, Figgy: 1, Jay: 3, Hannah: 5, Bret: 1, Sunday: 1, Adam: -2, Jessica: 2, Zeke: 2, Chris: -2, David: 1, Ken: 1}
+Adam: {Figgy: -6, Mari: 1, Zeke: 5, Hannah: 1, Taylor: -4, Jessica: 4, Ken: 5, Will: -1, Michelle: -2, David: 4, Bret: 1, Chris: 0, Sunday: 2, Jay: -1}
+
+
+# *** Relationship Strengths Undirected ***
+# First 10 Episodes Strengths (Undirected):
+Taylor: {Jay: 11, Figgy: 17, Michelle: 7, Michaela: 0, Mari: -2, Will: 7, Hannah: 2, David: -5, Adam: -15, Ken: -4, Jessica: 0, Bret: -2, Zeke: -5, Chris: -2, Sunday: -2}
+Jay: {Taylor: 11, Figgy: 6, Michelle: 12, Mari: -2, Michaela: 1, Will: 10, Hannah: 2, Bret: 1, Sunday: 10, Zeke: -1, Adam: -8, David: 0, Jessica: -5, Ken: 2, Chris: 4}
+Figgy: {Taylor: 17, Jay: 6, Michaela: -7, Mari: -6, Zeke: -5, Hannah: 1, Michelle: 5, Adam: -6, Will: 2, Ken: -4, Jessica: -2}
+Michelle: {Taylor: 7, Jay: 12, Hannah: 2, Figgy: 5, Mari: -2, Michaela: 2, Will: 6, Zeke: -2, David: -2, CeCe: -4, Chris: 0, Adam: -4, Bret: -2, Sunday: -2, Ken: -2, Jessica: -2}
+Hannah: {Michelle: 2, Mari: 0, Figgy: 1, Michaela: 6, Taylor: 2, Will: 9, Jay: 2, Zeke: 8, Adam: 1, Bret: 1, David: 5, Chris: 0, Sunday: 2, Ken: 5, Jessica: 7}
+Sunday: {Rachel: -3, CeCe: -1, Lucy: 6, Jessica: 1, Ken: 9, Bret: 15, Chris: 14, Paul: -1, David: 5, Michaela: -2, Will: 2, Jay: 10, Michelle: -2, Hannah: 2, Adam: 4, Zeke: 4, Taylor: -2}
+Rachel: {Sunday: -3, Chris: -3, Jessica: -1, Bret: -4, Paul: -2, David: -2, Ken: -2}
+David: {Bret: 1, Chris: 4, Jessica: 13, CeCe: 2, Rachel: -2, Paul: -6, Ken: 19, Taylor: -5, Lucy: 0, Sunday: 5, Zeke: 13, Michelle: -2, Jay: 0, Hannah: 5, Adam: 6, Will: 2}
+Bret: {David: 1, Rachel: -4, Paul: 4, Ken: 6, Chris: 21, Jessica: -3, CeCe: -3, Sunday: 15, Lucy: 2, Hannah: 1, Jay: 1, Will: 3, Michaela: -4, Taylor: -2, Michelle: -2, Adam: 2, Zeke: 4}
+Chris: {David: 4, Rachel: -3, Paul: 4, Ken: 7, Bret: 21, Jessica: -7, CeCe: -5, Sunday: 14, Lucy: 2, Zeke: 9, Michelle: 0, Taylor: -2, Hannah: 0, Adam: 2, Jay: 4, Will: -2}
+Jessica: {David: 13, Rachel: -1, CeCe: -2, Lucy: 2, Sunday: 1, Ken: 10, Chris: -7, Paul: -1, Bret: -3, Figgy: -2, Adam: 7, Taylor: 0, Zeke: 5, Michelle: -2, Hannah: 7, Jay: -5, Will: 4}
+Mari: {Hannah: 0, Figgy: -6, Michaela: -2, Michelle: -2, Taylor: -2, Will: -2, Jay: -2, Adam: 2, Zeke: 2}
+Paul: {Rachel: -2, Ken: -4, Bret: 4, David: -6, Chris: 4, CeCe: -8, Jessica: -1, Sunday: -1, Lucy: -3}
+Lucy: {CeCe: -2, Jessica: 2, Sunday: 6, Paul: -3, David: 0, Ken: 3, Chris: 2, Bret: 2}
+CeCe: {Lucy: -2, David: 2, Jessica: -2, Sunday: -1, Paul: -8, Ken: 2, Chris: -5, Bret: -3, Zeke: -3, Michelle: -4}
+Ken: {Rachel: -2, Paul: -4, Bret: 6, David: 19, Chris: 7, CeCe: 2, Jessica: 10, Sunday: 9, Lucy: 3, Adam: 10, Figgy: -4, Taylor: -4, Zeke: 8, Michelle: -2, Hannah: 5, Jay: 2, Will: 2}
+Michaela: {Taylor: 0, Figgy: -7, Zeke: -1, Mari: -2, Michelle: 2, Will: 2, Jay: 1, Hannah: 6, Bret: -4, Sunday: -2}
+Zeke: {Figgy: -5, Michaela: -1, Adam: 9, Mari: 2, Hannah: 8, Michelle: -2, Chris: 9, CeCe: -3, David: 13, Jay: -1, Jessica: 5, Ken: 8, Taylor: -5, Bret: 4, Sunday: 4, Will: 4}
+Will: {Mari: -2, Figgy: 2, Michaela: 2, Michelle: 6, Taylor: 7, Jay: 10, Hannah: 9, Bret: 3, Sunday: 2, Adam: -3, Jessica: 4, Zeke: 4, Chris: -2, David: 2, Ken: 2}
+Adam: {Figgy: -6, Mari: 2, Zeke: 9, Hannah: 1, Taylor: -15, Ken: 10, Jessica: 7, Will: -3, Jay: -8, Michelle: -4, David: 6, Bret: 2, Chris: 2, Sunday: 4}
+
+
+# *** Relationship Strengths Directed ***
+# First 11 Episodes Strengths (Directed):
+Taylor: {Jay: 7, Figgy: 10, Michelle: 3, Mari: -2, Michaela: 1, Will: 4, Hannah: 1, Ken: -1, Adam: -11, Jessica: 1}
+Figgy: {Jay: 3, Taylor: 7, Michaela: -2, Mari: -2, Michelle: 2, Will: 1, Hannah: 1, Zeke: -2, Adam: 0, Ken: -2}
+Jay: {Taylor: 4, Figgy: 3, Michelle: 6, Mari: -2, Michaela: -1, Will: 9, Hannah: 5, Bret: 3, Sunday: 7, Adam: -7, Zeke: 1, Jessica: -3, Ken: 1, David: 1, Chris: 2}
+Michelle: {Hannah: 2, Figgy: 3, Jay: 6, Taylor: 4, Mari: -2, Michaela: 1, Will: 3, Zeke: 0, CeCe: -2, Chris: 1, David: 1, Adam: -2}
+Hannah: {Michelle: 0, Mari: -1, Figgy: 0, Michaela: 3, Taylor: 1, Will: 4, Jay: 0, Zeke: 4, Adam: 2, Bret: -1, David: 5, Chris: -1, Sunday: 1, Ken: 4, Jessica: 5}
+Sunday: {Rachel: -1, CeCe: -2, Lucy: 3, Jessica: -2, Bret: 9, Chris: 6, Paul: -2, David: 3, Ken: 4, Michaela: -2, Will: 3, Jay: 7, Michelle: -2, Hannah: 5, Adam: 2, Zeke: 4, Taylor: -2}
+David: {Bret: 0, Chris: 1, Rachel: -2, Ken: 14, Paul: -5, Taylor: -5, Lucy: -2, Sunday: 2, CeCe: 1, Jessica: 12, Michelle: -3, Zeke: 8, Jay: -2, Hannah: 5, Adam: 4, Will: 0}
+Bret: {David: -2, Rachel: -4, Ken: 2, Paul: 2, Chris: 10, CeCe: -3, Sunday: 10, Lucy: 0, Jessica: -5, Michaela: -2, Will: 4, Jay: 2, Taylor: -2, Michelle: -2, Hannah: 6, Adam: 1, Zeke: 7}
+Chris: {David: 3, Rachel: -3, Ken: 5, Paul: 2, Bret: 11, CeCe: -6, Sunday: 8, Lucy: 0, Jessica: -6, Zeke: 6, Michelle: -1, Taylor: -2, Hannah: 1, Adam: 2, Jay: 2}
+Jessica: {David: 7, Rachel: -1, CeCe: -3, Lucy: 3, Sunday: 3, Chris: -1, Paul: -2, Bret: 2, Ken: 10, Figgy: -2, Adam: 5, Zeke: 7, Taylor: -1, Michelle: -2, Hannah: 4, Jay: -3, Will: 2}
+Mari: {Hannah: 1, Figgy: -4, Zeke: 1, Adam: 1}
+Rachel: {Sunday: -2}
+Paul: {Rachel: -2, Ken: 1, Bret: 2, David: -1, Chris: 2, CeCe: -4, Jessica: 1, Sunday: 1}
+Lucy: {CeCe: -1, Jessica: -1, Sunday: 3, Paul: -3, David: 2, Ken: 3, Bret: 2, Chris: 2}
+CeCe: {David: 1, Paul: -4, Ken: 2, Lucy: -1, Sunday: 1, Jessica: 1, Chris: 1, Michelle: -2}
+Ken: {Rachel: -2, Bret: 2, David: 13, Paul: -5, Chris: 2, CeCe: 0, Jessica: 7, Sunday: 5, Lucy: 0, Adam: 7, Figgy: -2, Zeke: 8, Taylor: -3, Michelle: -2, Hannah: 3, Jay: 1, Will: 1}
+Michaela: {Taylor: -1, Figgy: -5, Mari: -2, Michelle: 1, Will: 2, Jay: 2, Hannah: 3, Bret: -2}
+Zeke: {Figgy: -3, Michaela: -1, Adam: 5, Mari: 1, Hannah: 7, Michelle: -2, Chris: 3, CeCe: -3, David: 5, Jay: 1, Ken: 4, Jessica: 2, Taylor: -5, Bret: 5, Sunday: 5, Will: 4}
+Will: {Mari: -2, Michaela: 0, Michelle: 3, Taylor: 3, Figgy: 1, Jay: 5, Hannah: 8, Bret: 3, Sunday: 3, Adam: -2, Jessica: 2, Zeke: 3, Chris: -2, David: 1, Ken: 1}
+Adam: {Figgy: -6, Mari: 1, Zeke: 9, Hannah: 1, Taylor: -4, Jessica: 6, Ken: 7, Will: -1, Michelle: -2, David: 6, Bret: 1, Chris: 0, Sunday: 2, Jay: -1}
+
+
+# *** Relationship Strengths Undirected ***
+# First 11 Episodes Strengths (Undirected):
+Taylor: {Jay: 11, Figgy: 17, Michelle: 7, Michaela: 0, Mari: -2, Will: 7, Hannah: 2, David: -5, Adam: -15, Ken: -4, Jessica: 0, Bret: -2, Zeke: -5, Chris: -2, Sunday: -2}
+Jay: {Taylor: 11, Figgy: 6, Michelle: 12, Mari: -2, Michaela: 1, Will: 14, Hannah: 5, Bret: 5, Sunday: 14, Zeke: 2, Adam: -8, David: -1, Jessica: -6, Ken: 2, Chris: 4}
+Figgy: {Taylor: 17, Jay: 6, Michaela: -7, Mari: -6, Zeke: -5, Hannah: 1, Michelle: 5, Adam: -6, Will: 2, Ken: -4, Jessica: -2}
+Michelle: {Taylor: 7, Jay: 12, Hannah: 2, Figgy: 5, Mari: -2, Michaela: 2, Will: 6, Zeke: -2, David: -2, CeCe: -4, Chris: 0, Adam: -4, Bret: -2, Sunday: -2, Ken: -2, Jessica: -2}
+Hannah: {Michelle: 2, Mari: 0, Figgy: 1, Michaela: 6, Taylor: 2, Will: 12, Jay: 5, Zeke: 11, Adam: 3, Bret: 5, David: 10, Chris: 0, Sunday: 6, Ken: 7, Jessica: 9}
+Sunday: {Rachel: -3, CeCe: -1, Lucy: 6, Jessica: 1, Ken: 9, Bret: 19, Chris: 14, Paul: -1, David: 5, Michaela: -2, Will: 6, Jay: 14, Michelle: -2, Hannah: 6, Adam: 4, Zeke: 9, Taylor: -2}
+Rachel: {Sunday: -3, Chris: -3, Jessica: -1, Bret: -4, Paul: -2, David: -2, Ken: -2}
+David: {Bret: -2, Chris: 4, Jessica: 19, CeCe: 2, Rachel: -2, Paul: -6, Ken: 27, Taylor: -5, Lucy: 0, Sunday: 5, Zeke: 13, Michelle: -2, Jay: -1, Hannah: 10, Adam: 10, Will: 1}
+Bret: {David: -2, Rachel: -4, Paul: 4, Ken: 4, Chris: 21, Jessica: -3, CeCe: -3, Sunday: 19, Lucy: 2, Hannah: 5, Jay: 5, Will: 7, Michaela: -4, Taylor: -2, Michelle: -2, Adam: 2, Zeke: 12}
+Chris: {David: 4, Rachel: -3, Paul: 4, Ken: 7, Bret: 21, Jessica: -7, CeCe: -5, Sunday: 14, Lucy: 2, Zeke: 9, Michelle: 0, Taylor: -2, Hannah: 0, Adam: 2, Jay: 4, Will: -2}
+Jessica: {David: 19, Rachel: -1, CeCe: -2, Lucy: 2, Sunday: 1, Ken: 17, Chris: -7, Paul: -1, Bret: -3, Figgy: -2, Adam: 11, Taylor: 0, Zeke: 9, Michelle: -2, Hannah: 9, Jay: -6, Will: 4}
+Mari: {Hannah: 0, Figgy: -6, Michaela: -2, Michelle: -2, Taylor: -2, Will: -2, Jay: -2, Adam: 2, Zeke: 2}
+Paul: {Rachel: -2, Ken: -4, Bret: 4, David: -6, Chris: 4, CeCe: -8, Jessica: -1, Sunday: -1, Lucy: -3}
+Lucy: {CeCe: -2, Jessica: 2, Sunday: 6, Paul: -3, David: 0, Ken: 3, Chris: 2, Bret: 2}
+CeCe: {Lucy: -2, David: 2, Jessica: -2, Sunday: -1, Paul: -8, Ken: 2, Chris: -5, Bret: -3, Zeke: -3, Michelle: -4}
+Ken: {Rachel: -2, Paul: -4, Bret: 4, David: 27, Chris: 7, CeCe: 2, Jessica: 17, Sunday: 9, Lucy: 3, Adam: 14, Figgy: -4, Taylor: -4, Zeke: 12, Michelle: -2, Hannah: 7, Jay: 2, Will: 2}
+Michaela: {Taylor: 0, Figgy: -7, Zeke: -1, Mari: -2, Michelle: 2, Will: 2, Jay: 1, Hannah: 6, Bret: -4, Sunday: -2}
+Zeke: {Figgy: -5, Michaela: -1, Adam: 14, Mari: 2, Hannah: 11, Michelle: -2, Chris: 9, CeCe: -3, David: 13, Jay: 2, Jessica: 9, Ken: 12, Taylor: -5, Bret: 12, Sunday: 9, Will: 7}
+Will: {Mari: -2, Figgy: 2, Michaela: 2, Michelle: 6, Taylor: 7, Jay: 14, Hannah: 12, Bret: 7, Sunday: 6, Adam: -3, Jessica: 4, Zeke: 7, Chris: -2, David: 1, Ken: 2}
+Adam: {Figgy: -6, Mari: 2, Zeke: 14, Hannah: 3, Taylor: -15, Ken: 14, Jessica: 11, Will: -3, Jay: -8, Michelle: -4, David: 10, Bret: 2, Chris: 2, Sunday: 4}
+
+
+# *** Relationship Strengths Directed ***
+# First 12 Episodes Strengths (Directed):
+Taylor: {Jay: 7, Figgy: 10, Michelle: 3, Mari: -2, Michaela: 1, Will: 4, Hannah: 1, Ken: -1, Adam: -11, Jessica: 1}
+Figgy: {Jay: 3, Taylor: 7, Michaela: -2, Mari: -2, Michelle: 2, Will: 1, Hannah: 1, Zeke: -2, Adam: 0, Ken: -2}
+Jay: {Taylor: 4, Figgy: 3, Michelle: 6, Mari: -2, Michaela: -1, Will: 11, Hannah: 3, Bret: 5, Sunday: 9, Adam: -6, Zeke: 3, Jessica: -3, Ken: 1, David: -1, Chris: 2}
+Michelle: {Hannah: 2, Figgy: 3, Jay: 6, Taylor: 4, Mari: -2, Michaela: 1, Will: 3, Zeke: 0, CeCe: -2, Chris: 1, David: 1, Adam: -2}
+Hannah: {Michelle: 0, Mari: -1, Figgy: 0, Michaela: 3, Taylor: 1, Will: 5, Jay: 0, Zeke: 2, Adam: 5, Bret: -1, David: 7, Chris: -1, Sunday: 1, Ken: 6, Jessica: 5}
+Sunday: {Rachel: -1, CeCe: -2, Lucy: 3, Jessica: -2, Bret: 11, Chris: 6, Paul: -2, David: 3, Ken: 4, Michaela: -2, Will: 3, Jay: 9, Michelle: -2, Hannah: 3, Adam: 2, Zeke: 6, Taylor: -2}
+David: {Bret: 0, Chris: 1, Rachel: -2, Ken: 15, Paul: -5, Taylor: -5, Lucy: -2, Sunday: 2, CeCe: 1, Jessica: 12, Michelle: -3, Zeke: 6, Jay: -2, Hannah: 7, Adam: 6, Will: 1}
+Bret: {David: -2, Rachel: -4, Ken: 2, Paul: 2, Chris: 10, CeCe: -3, Sunday: 12, Lucy: 0, Jessica: -5, Michaela: -2, Will: 5, Jay: 4, Taylor: -2, Michelle: -2, Hannah: 4, Adam: 0, Zeke: 9}
+Chris: {David: 3, Rachel: -3, Ken: 5, Paul: 2, Bret: 11, CeCe: -6, Sunday: 8, Lucy: 0, Jessica: -6, Zeke: 6, Michelle: -1, Taylor: -2, Hannah: 1, Adam: 2, Jay: 2}
+Jessica: {David: 7, Rachel: -1, CeCe: -3, Lucy: 3, Sunday: 3, Chris: -1, Paul: -2, Bret: 2, Ken: 10, Figgy: -2, Adam: 5, Zeke: 7, Taylor: -1, Michelle: -2, Hannah: 4, Jay: -3, Will: 2}
+Mari: {Hannah: 1, Figgy: -4, Zeke: 1, Adam: 1}
+Rachel: {Sunday: -2}
+Paul: {Rachel: -2, Ken: 1, Bret: 2, David: -1, Chris: 2, CeCe: -4, Jessica: 1, Sunday: 1}
+Lucy: {CeCe: -1, Jessica: -1, Sunday: 3, Paul: -3, David: 2, Ken: 3, Bret: 2, Chris: 2}
+CeCe: {David: 1, Paul: -4, Ken: 2, Lucy: -1, Sunday: 1, Jessica: 1, Chris: 1, Michelle: -2}
+Ken: {Rachel: -2, Bret: 2, David: 15, Paul: -5, Chris: 2, CeCe: 0, Jessica: 7, Sunday: 5, Lucy: 0, Adam: 9, Figgy: -2, Zeke: 6, Taylor: -3, Michelle: -2, Hannah: 5, Jay: 1, Will: 2}
+Michaela: {Taylor: -1, Figgy: -5, Mari: -2, Michelle: 1, Will: 2, Jay: 2, Hannah: 3, Bret: -2}
+Zeke: {Figgy: -3, Michaela: -1, Adam: 5, Mari: 1, Hannah: 5, Michelle: -2, Chris: 3, CeCe: -3, David: 4, Jay: 3, Ken: 4, Jessica: 2, Taylor: -5, Bret: 7, Sunday: 7, Will: 6}
+Will: {Mari: -2, Michaela: 0, Michelle: 3, Taylor: 3, Figgy: 1, Jay: 4, Hannah: 9, Bret: 2, Sunday: 1, Adam: -1, Jessica: 2, Zeke: -1, Chris: -2, David: 2, Ken: 0}
+Adam: {Figgy: -6, Mari: 1, Zeke: 7, Hannah: 6, Taylor: -4, Jessica: 6, Ken: 8, Will: 0, Michelle: -2, David: 8, Bret: 1, Chris: 0, Sunday: 2, Jay: 0}
+
+
+# *** Relationship Strengths Undirected ***
+# First 12 Episodes Strengths (Undirected):
+Taylor: {Jay: 11, Figgy: 17, Michelle: 7, Michaela: 0, Mari: -2, Will: 7, Hannah: 2, David: -5, Adam: -15, Ken: -4, Jessica: 0, Bret: -2, Zeke: -5, Chris: -2, Sunday: -2}
+Jay: {Taylor: 11, Figgy: 6, Michelle: 12, Mari: -2, Michaela: 1, Will: 15, Hannah: 3, Bret: 9, Sunday: 18, Zeke: 6, Adam: -6, David: -3, Jessica: -6, Ken: 2, Chris: 4}
+Figgy: {Taylor: 17, Jay: 6, Michaela: -7, Mari: -6, Zeke: -5, Hannah: 1, Michelle: 5, Adam: -6, Will: 2, Ken: -4, Jessica: -2}
+Michelle: {Taylor: 7, Jay: 12, Hannah: 2, Figgy: 5, Mari: -2, Michaela: 2, Will: 6, Zeke: -2, David: -2, CeCe: -4, Chris: 0, Adam: -4, Bret: -2, Sunday: -2, Ken: -2, Jessica: -2}
+Hannah: {Michelle: 2, Mari: 0, Figgy: 1, Michaela: 6, Taylor: 2, Will: 14, Jay: 3, Zeke: 7, Adam: 11, Bret: 3, David: 14, Chris: 0, Sunday: 4, Ken: 11, Jessica: 9}
+Sunday: {Rachel: -3, CeCe: -1, Lucy: 6, Jessica: 1, Ken: 9, Bret: 23, Chris: 14, Paul: -1, David: 5, Michaela: -2, Will: 4, Jay: 18, Michelle: -2, Hannah: 4, Adam: 4, Zeke: 13, Taylor: -2}
+Rachel: {Sunday: -3, Chris: -3, Jessica: -1, Bret: -4, Paul: -2, David: -2, Ken: -2}
+David: {Bret: -2, Chris: 4, Jessica: 19, CeCe: 2, Rachel: -2, Paul: -6, Ken: 30, Taylor: -5, Lucy: 0, Sunday: 5, Zeke: 10, Michelle: -2, Jay: -3, Hannah: 14, Adam: 14, Will: 3}
+Bret: {David: -2, Rachel: -4, Paul: 4, Ken: 4, Chris: 21, Jessica: -3, CeCe: -3, Sunday: 23, Lucy: 2, Hannah: 3, Jay: 9, Will: 7, Michaela: -4, Taylor: -2, Michelle: -2, Adam: 1, Zeke: 16}
+Chris: {David: 4, Rachel: -3, Paul: 4, Ken: 7, Bret: 21, Jessica: -7, CeCe: -5, Sunday: 14, Lucy: 2, Zeke: 9, Michelle: 0, Taylor: -2, Hannah: 0, Adam: 2, Jay: 4, Will: -2}
+Jessica: {David: 19, Rachel: -1, CeCe: -2, Lucy: 2, Sunday: 1, Ken: 17, Chris: -7, Paul: -1, Bret: -3, Figgy: -2, Adam: 11, Taylor: 0, Zeke: 9, Michelle: -2, Hannah: 9, Jay: -6, Will: 4}
+Mari: {Hannah: 0, Figgy: -6, Michaela: -2, Michelle: -2, Taylor: -2, Will: -2, Jay: -2, Adam: 2, Zeke: 2}
+Paul: {Rachel: -2, Ken: -4, Bret: 4, David: -6, Chris: 4, CeCe: -8, Jessica: -1, Sunday: -1, Lucy: -3}
+Lucy: {CeCe: -2, Jessica: 2, Sunday: 6, Paul: -3, David: 0, Ken: 3, Chris: 2, Bret: 2}
+CeCe: {Lucy: -2, David: 2, Jessica: -2, Sunday: -1, Paul: -8, Ken: 2, Chris: -5, Bret: -3, Zeke: -3, Michelle: -4}
+Ken: {Rachel: -2, Paul: -4, Bret: 4, David: 30, Chris: 7, CeCe: 2, Jessica: 17, Sunday: 9, Lucy: 3, Adam: 17, Figgy: -4, Taylor: -4, Zeke: 10, Michelle: -2, Hannah: 11, Jay: 2, Will: 2}
+Michaela: {Taylor: 0, Figgy: -7, Zeke: -1, Mari: -2, Michelle: 2, Will: 2, Jay: 1, Hannah: 6, Bret: -4, Sunday: -2}
+Zeke: {Figgy: -5, Michaela: -1, Adam: 12, Mari: 2, Hannah: 7, Michelle: -2, Chris: 9, CeCe: -3, David: 10, Jay: 6, Jessica: 9, Ken: 10, Taylor: -5, Bret: 16, Sunday: 13, Will: 5}
+Will: {Mari: -2, Figgy: 2, Michaela: 2, Michelle: 6, Taylor: 7, Jay: 15, Hannah: 14, Bret: 7, Sunday: 4, Adam: -1, Jessica: 4, Zeke: 5, Chris: -2, David: 3, Ken: 2}
+Adam: {Figgy: -6, Mari: 2, Zeke: 12, Hannah: 11, Taylor: -15, Ken: 17, Jessica: 11, Will: -1, Jay: -6, Michelle: -4, David: 14, Bret: 1, Chris: 2, Sunday: 4}
+
+
+# *** Relationship Strengths Directed ***
+# First 13 Episodes Strengths (Directed):
+Taylor: {Jay: 7, Figgy: 10, Michelle: 3, Mari: -2, Michaela: 1, Will: 4, Hannah: 1, Ken: -1, Adam: -11, Jessica: 1}
+Figgy: {Jay: 3, Taylor: 7, Michaela: -2, Mari: -2, Michelle: 2, Will: 1, Hannah: 1, Zeke: -2, Adam: 0, Ken: -2}
+Jay: {Taylor: 4, Figgy: 3, Michelle: 6, Mari: -2, Michaela: -1, Will: 12, Hannah: 3, Bret: 5, Sunday: 9, Adam: -6, Zeke: 3, Jessica: -3, Ken: 1, David: -4, Chris: 2}
+Michelle: {Hannah: 2, Figgy: 3, Jay: 6, Taylor: 4, Mari: -2, Michaela: 1, Will: 3, Zeke: 0, CeCe: -2, Chris: 1, David: 1, Adam: -2}
+Hannah: {Michelle: 0, Mari: -1, Figgy: 0, Michaela: 3, Taylor: 1, Will: 3, Jay: 0, Zeke: 2, Adam: 7, Bret: 0, David: 9, Chris: -1, Sunday: 2, Ken: 7, Jessica: 5}
+Sunday: {Rachel: -1, CeCe: -2, Lucy: 3, Jessica: -2, Bret: 14, Chris: 6, Paul: -2, David: 3, Ken: 5, Michaela: -2, Will: 0, Jay: 8, Michelle: -2, Hannah: 4, Adam: 4, Zeke: 6, Taylor: -2}
+David: {Bret: 1, Chris: 1, Rachel: -2, Ken: 16, Paul: -5, Taylor: -5, Lucy: -2, Sunday: 3, CeCe: 1, Jessica: 12, Michelle: -3, Zeke: 6, Jay: -2, Hannah: 8, Adam: 7, Will: -1}
+Bret: {David: -2, Rachel: -4, Ken: 3, Paul: 2, Chris: 10, CeCe: -3, Sunday: 14, Lucy: 0, Jessica: -5, Michaela: -2, Will: 1, Jay: 3, Taylor: -2, Michelle: -2, Hannah: 5, Adam: 2, Zeke: 9}
+Chris: {David: 3, Rachel: -3, Ken: 5, Paul: 2, Bret: 11, CeCe: -6, Sunday: 8, Lucy: 0, Jessica: -6, Zeke: 6, Michelle: -1, Taylor: -2, Hannah: 1, Adam: 2, Jay: 2}
+Jessica: {David: 7, Rachel: -1, CeCe: -3, Lucy: 3, Sunday: 3, Chris: -1, Paul: -2, Bret: 2, Ken: 10, Figgy: -2, Adam: 5, Zeke: 7, Taylor: -1, Michelle: -2, Hannah: 4, Jay: -3, Will: 2}
+Mari: {Hannah: 1, Figgy: -4, Zeke: 1, Adam: 1}
+Rachel: {Sunday: -2}
+Paul: {Rachel: -2, Ken: 1, Bret: 2, David: -1, Chris: 2, CeCe: -4, Jessica: 1, Sunday: 1}
+Lucy: {CeCe: -1, Jessica: -1, Sunday: 3, Paul: -3, David: 2, Ken: 3, Bret: 2, Chris: 2}
+CeCe: {David: 1, Paul: -4, Ken: 2, Lucy: -1, Sunday: 1, Jessica: 1, Chris: 1, Michelle: -2}
+Ken: {Rachel: -2, Bret: 3, David: 16, Paul: -5, Chris: 2, CeCe: 0, Jessica: 7, Sunday: 6, Lucy: 0, Adam: 10, Figgy: -2, Zeke: 6, Taylor: -3, Michelle: -2, Hannah: 6, Jay: 0, Will: 0}
+Michaela: {Taylor: -1, Figgy: -5, Mari: -2, Michelle: 1, Will: 2, Jay: 2, Hannah: 3, Bret: -2}
+Zeke: {Figgy: -3, Michaela: -1, Adam: 5, Mari: 1, Hannah: 5, Michelle: -2, Chris: 3, CeCe: -3, David: 4, Jay: 3, Ken: 4, Jessica: 2, Taylor: -5, Bret: 7, Sunday: 7, Will: 6}
+Will: {Mari: -2, Michaela: 0, Michelle: 3, Taylor: 3, Figgy: 1, Jay: 6, Hannah: 9, Bret: 2, Sunday: 1, Adam: -1, Jessica: 2, Zeke: -1, Chris: -2, David: -1, Ken: 0}
+Adam: {Figgy: -6, Mari: 1, Zeke: 7, Hannah: 8, Taylor: -4, Jessica: 6, Ken: 9, Will: -3, Michelle: -2, David: 8, Bret: 3, Chris: 0, Sunday: 4, Jay: -1}
+
+
+# *** Relationship Strengths Undirected ***
+# First 13 Episodes Strengths (Undirected):
+Taylor: {Jay: 11, Figgy: 17, Michelle: 7, Michaela: 0, Mari: -2, Will: 7, Hannah: 2, David: -5, Adam: -15, Ken: -4, Jessica: 0, Bret: -2, Zeke: -5, Chris: -2, Sunday: -2}
+Jay: {Taylor: 11, Figgy: 6, Michelle: 12, Mari: -2, Michaela: 1, Will: 18, Hannah: 3, Bret: 8, Sunday: 17, Zeke: 6, Adam: -7, David: -6, Jessica: -6, Ken: 1, Chris: 4}
+Figgy: {Taylor: 17, Jay: 6, Michaela: -7, Mari: -6, Zeke: -5, Hannah: 1, Michelle: 5, Adam: -6, Will: 2, Ken: -4, Jessica: -2}
+Michelle: {Taylor: 7, Jay: 12, Hannah: 2, Figgy: 5, Mari: -2, Michaela: 2, Will: 6, Zeke: -2, David: -2, CeCe: -4, Chris: 0, Adam: -4, Bret: -2, Sunday: -2, Ken: -2, Jessica: -2}
+Hannah: {Michelle: 2, Mari: 0, Figgy: 1, Michaela: 6, Taylor: 2, Will: 12, Jay: 3, Zeke: 7, Adam: 15, Bret: 5, David: 17, Chris: 0, Sunday: 6, Ken: 13, Jessica: 9}
+Sunday: {Rachel: -3, CeCe: -1, Lucy: 6, Jessica: 1, Ken: 11, Bret: 28, Chris: 14, Paul: -1, David: 6, Michaela: -2, Will: 1, Jay: 17, Michelle: -2, Hannah: 6, Adam: 8, Zeke: 13, Taylor: -2}
+Rachel: {Sunday: -3, Chris: -3, Jessica: -1, Bret: -4, Paul: -2, David: -2, Ken: -2}
+David: {Bret: -1, Chris: 4, Jessica: 19, CeCe: 2, Rachel: -2, Paul: -6, Ken: 32, Taylor: -5, Lucy: 0, Sunday: 6, Zeke: 10, Michelle: -2, Jay: -6, Hannah: 17, Adam: 15, Will: -2}
+Bret: {David: -1, Rachel: -4, Paul: 4, Ken: 6, Chris: 21, Jessica: -3, CeCe: -3, Sunday: 28, Lucy: 2, Hannah: 5, Jay: 8, Will: 3, Michaela: -4, Taylor: -2, Michelle: -2, Adam: 5, Zeke: 16}
+Chris: {David: 4, Rachel: -3, Paul: 4, Ken: 7, Bret: 21, Jessica: -7, CeCe: -5, Sunday: 14, Lucy: 2, Zeke: 9, Michelle: 0, Taylor: -2, Hannah: 0, Adam: 2, Jay: 4, Will: -2}
+Jessica: {David: 19, Rachel: -1, CeCe: -2, Lucy: 2, Sunday: 1, Ken: 17, Chris: -7, Paul: -1, Bret: -3, Figgy: -2, Adam: 11, Taylor: 0, Zeke: 9, Michelle: -2, Hannah: 9, Jay: -6, Will: 4}
+Mari: {Hannah: 0, Figgy: -6, Michaela: -2, Michelle: -2, Taylor: -2, Will: -2, Jay: -2, Adam: 2, Zeke: 2}
+Paul: {Rachel: -2, Ken: -4, Bret: 4, David: -6, Chris: 4, CeCe: -8, Jessica: -1, Sunday: -1, Lucy: -3}
+Lucy: {CeCe: -2, Jessica: 2, Sunday: 6, Paul: -3, David: 0, Ken: 3, Chris: 2, Bret: 2}
+CeCe: {Lucy: -2, David: 2, Jessica: -2, Sunday: -1, Paul: -8, Ken: 2, Chris: -5, Bret: -3, Zeke: -3, Michelle: -4}
+Ken: {Rachel: -2, Paul: -4, Bret: 6, David: 32, Chris: 7, CeCe: 2, Jessica: 17, Sunday: 11, Lucy: 3, Adam: 19, Figgy: -4, Taylor: -4, Zeke: 10, Michelle: -2, Hannah: 13, Jay: 1, Will: 0}
+Michaela: {Taylor: 0, Figgy: -7, Zeke: -1, Mari: -2, Michelle: 2, Will: 2, Jay: 1, Hannah: 6, Bret: -4, Sunday: -2}
+Zeke: {Figgy: -5, Michaela: -1, Adam: 12, Mari: 2, Hannah: 7, Michelle: -2, Chris: 9, CeCe: -3, David: 10, Jay: 6, Jessica: 9, Ken: 10, Taylor: -5, Bret: 16, Sunday: 13, Will: 5}
+Will: {Mari: -2, Figgy: 2, Michaela: 2, Michelle: 6, Taylor: 7, Jay: 18, Hannah: 12, Bret: 3, Sunday: 1, Adam: -4, Jessica: 4, Zeke: 5, Chris: -2, David: -2, Ken: 0}
+Adam: {Figgy: -6, Mari: 2, Zeke: 12, Hannah: 15, Taylor: -15, Ken: 19, Jessica: 11, Will: -4, Jay: -7, Michelle: -4, David: 15, Bret: 5, Chris: 2, Sunday: 8}
+
+
+# *** Relationship Strengths Directed ***
+# First 14 Episodes Strengths (Directed):
+Taylor: {Jay: 7, Figgy: 10, Michelle: 3, Mari: -2, Michaela: 1, Will: 4, Hannah: 1, Ken: -1, Adam: -11, Jessica: 1}
+Figgy: {Jay: 3, Taylor: 7, Michaela: -2, Mari: -2, Michelle: 2, Will: 1, Hannah: 1, Zeke: -2, Adam: 0, Ken: -2}
+Jay: {Taylor: 4, Figgy: 3, Michelle: 6, Mari: -2, Michaela: -1, Will: 12, Hannah: 3, Bret: 6, Sunday: 9, Adam: -4, Zeke: 3, Jessica: -3, Ken: 1, David: -7, Chris: 2}
+Michelle: {Hannah: 2, Figgy: 3, Jay: 6, Taylor: 4, Mari: -2, Michaela: 1, Will: 3, Zeke: 0, CeCe: -2, Chris: 1, David: 1, Adam: -2}
+Hannah: {Michelle: 0, Mari: -1, Figgy: 0, Michaela: 3, Taylor: 1, Will: 3, Jay: 0, Zeke: 2, Adam: 8, Bret: 0, David: 10, Chris: -1, Sunday: -1, Ken: 8, Jessica: 5}
+Sunday: {Rachel: -1, CeCe: -2, Lucy: 3, Jessica: -2, Bret: 14, Chris: 6, Paul: -2, David: 3, Ken: 5, Michaela: -2, Will: 0, Jay: 6, Michelle: -2, Hannah: 4, Adam: 4, Zeke: 6, Taylor: -2}
+David: {Bret: 1, Chris: 1, Rachel: -2, Ken: 17, Paul: -5, Taylor: -5, Lucy: -2, Sunday: 1, CeCe: 1, Jessica: 12, Michelle: -3, Zeke: 6, Jay: -2, Hannah: 9, Adam: 8, Will: -1}
+Bret: {David: -4, Rachel: -4, Ken: 3, Paul: 2, Chris: 10, CeCe: -3, Sunday: 14, Lucy: 0, Jessica: -5, Michaela: -2, Will: 1, Jay: 4, Taylor: -2, Michelle: -2, Hannah: 5, Adam: 2, Zeke: 9}
+Chris: {David: 3, Rachel: -3, Ken: 5, Paul: 2, Bret: 11, CeCe: -6, Sunday: 8, Lucy: 0, Jessica: -6, Zeke: 6, Michelle: -1, Taylor: -2, Hannah: 1, Adam: 2, Jay: 2}
+Jessica: {David: 7, Rachel: -1, CeCe: -3, Lucy: 3, Sunday: 3, Chris: -1, Paul: -2, Bret: 2, Ken: 10, Figgy: -2, Adam: 5, Zeke: 7, Taylor: -1, Michelle: -2, Hannah: 4, Jay: -3, Will: 2}
+Mari: {Hannah: 1, Figgy: -4, Zeke: 1, Adam: 1}
+Rachel: {Sunday: -2}
+Paul: {Rachel: -2, Ken: 1, Bret: 2, David: -1, Chris: 2, CeCe: -4, Jessica: 1, Sunday: 1}
+Lucy: {CeCe: -1, Jessica: -1, Sunday: 3, Paul: -3, David: 2, Ken: 3, Bret: 2, Chris: 2}
+CeCe: {David: 1, Paul: -4, Ken: 2, Lucy: -1, Sunday: 1, Jessica: 1, Chris: 1, Michelle: -2}
+Ken: {Rachel: -2, Bret: 3, David: 17, Paul: -5, Chris: 2, CeCe: 0, Jessica: 7, Sunday: 4, Lucy: 0, Adam: 11, Figgy: -2, Zeke: 6, Taylor: -3, Michelle: -2, Hannah: 7, Jay: 0, Will: 0}
+Michaela: {Taylor: -1, Figgy: -5, Mari: -2, Michelle: 1, Will: 2, Jay: 2, Hannah: 3, Bret: -2}
+Zeke: {Figgy: -3, Michaela: -1, Adam: 5, Mari: 1, Hannah: 5, Michelle: -2, Chris: 3, CeCe: -3, David: 4, Jay: 3, Ken: 4, Jessica: 2, Taylor: -5, Bret: 7, Sunday: 7, Will: 6}
+Will: {Mari: -2, Michaela: 0, Michelle: 3, Taylor: 3, Figgy: 1, Jay: 6, Hannah: 9, Bret: 2, Sunday: 1, Adam: -1, Jessica: 2, Zeke: -1, Chris: -2, David: -1, Ken: 0}
+Adam: {Figgy: -6, Mari: 1, Zeke: 7, Hannah: 9, Taylor: -4, Jessica: 6, Ken: 10, Will: -3, Michelle: -2, David: 8, Bret: 3, Chris: 0, Sunday: 2, Jay: -2}
+
+
+# *** Relationship Strengths Undirected ***
+# First 14 Episodes Strengths (Undirected):
+Taylor: {Jay: 11, Figgy: 17, Michelle: 7, Michaela: 0, Mari: -2, Will: 7, Hannah: 2, David: -5, Adam: -15, Ken: -4, Jessica: 0, Bret: -2, Zeke: -5, Chris: -2, Sunday: -2}
+Jay: {Taylor: 11, Figgy: 6, Michelle: 12, Mari: -2, Michaela: 1, Will: 18, Hannah: 3, Bret: 10, Sunday: 15, Zeke: 6, Adam: -6, David: -9, Jessica: -6, Ken: 1, Chris: 4}
+Figgy: {Taylor: 17, Jay: 6, Michaela: -7, Mari: -6, Zeke: -5, Hannah: 1, Michelle: 5, Adam: -6, Will: 2, Ken: -4, Jessica: -2}
+Michelle: {Taylor: 7, Jay: 12, Hannah: 2, Figgy: 5, Mari: -2, Michaela: 2, Will: 6, Zeke: -2, David: -2, CeCe: -4, Chris: 0, Adam: -4, Bret: -2, Sunday: -2, Ken: -2, Jessica: -2}
+Hannah: {Michelle: 2, Mari: 0, Figgy: 1, Michaela: 6, Taylor: 2, Will: 12, Jay: 3, Zeke: 7, Adam: 17, Bret: 5, David: 19, Chris: 0, Sunday: 3, Ken: 15, Jessica: 9}
+Sunday: {Rachel: -3, CeCe: -1, Lucy: 6, Jessica: 1, Ken: 9, Bret: 28, Chris: 14, Paul: -1, David: 4, Michaela: -2, Will: 1, Jay: 15, Michelle: -2, Hannah: 3, Adam: 6, Zeke: 13, Taylor: -2}
+Rachel: {Sunday: -3, Chris: -3, Jessica: -1, Bret: -4, Paul: -2, David: -2, Ken: -2}
+David: {Bret: -3, Chris: 4, Jessica: 19, CeCe: 2, Rachel: -2, Paul: -6, Ken: 34, Taylor: -5, Lucy: 0, Sunday: 4, Zeke: 10, Michelle: -2, Jay: -9, Hannah: 19, Adam: 16, Will: -2}
+Bret: {David: -3, Rachel: -4, Paul: 4, Ken: 6, Chris: 21, Jessica: -3, CeCe: -3, Sunday: 28, Lucy: 2, Hannah: 5, Jay: 10, Will: 3, Michaela: -4, Taylor: -2, Michelle: -2, Adam: 5, Zeke: 16}
+Chris: {David: 4, Rachel: -3, Paul: 4, Ken: 7, Bret: 21, Jessica: -7, CeCe: -5, Sunday: 14, Lucy: 2, Zeke: 9, Michelle: 0, Taylor: -2, Hannah: 0, Adam: 2, Jay: 4, Will: -2}
+Jessica: {David: 19, Rachel: -1, CeCe: -2, Lucy: 2, Sunday: 1, Ken: 17, Chris: -7, Paul: -1, Bret: -3, Figgy: -2, Adam: 11, Taylor: 0, Zeke: 9, Michelle: -2, Hannah: 9, Jay: -6, Will: 4}
+Mari: {Hannah: 0, Figgy: -6, Michaela: -2, Michelle: -2, Taylor: -2, Will: -2, Jay: -2, Adam: 2, Zeke: 2}
+Paul: {Rachel: -2, Ken: -4, Bret: 4, David: -6, Chris: 4, CeCe: -8, Jessica: -1, Sunday: -1, Lucy: -3}
+Lucy: {CeCe: -2, Jessica: 2, Sunday: 6, Paul: -3, David: 0, Ken: 3, Chris: 2, Bret: 2}
+CeCe: {Lucy: -2, David: 2, Jessica: -2, Sunday: -1, Paul: -8, Ken: 2, Chris: -5, Bret: -3, Zeke: -3, Michelle: -4}
+Ken: {Rachel: -2, Paul: -4, Bret: 6, David: 34, Chris: 7, CeCe: 2, Jessica: 17, Sunday: 9, Lucy: 3, Adam: 21, Figgy: -4, Taylor: -4, Zeke: 10, Michelle: -2, Hannah: 15, Jay: 1, Will: 0}
+Michaela: {Taylor: 0, Figgy: -7, Zeke: -1, Mari: -2, Michelle: 2, Will: 2, Jay: 1, Hannah: 6, Bret: -4, Sunday: -2}
+Zeke: {Figgy: -5, Michaela: -1, Adam: 12, Mari: 2, Hannah: 7, Michelle: -2, Chris: 9, CeCe: -3, David: 10, Jay: 6, Jessica: 9, Ken: 10, Taylor: -5, Bret: 16, Sunday: 13, Will: 5}
+Will: {Mari: -2, Figgy: 2, Michaela: 2, Michelle: 6, Taylor: 7, Jay: 18, Hannah: 12, Bret: 3, Sunday: 1, Adam: -4, Jessica: 4, Zeke: 5, Chris: -2, David: -2, Ken: 0}
+Adam: {Figgy: -6, Mari: 2, Zeke: 12, Hannah: 17, Taylor: -15, Ken: 21, Jessica: 11, Will: -4, Jay: -6, Michelle: -4, David: 16, Bret: 5, Chris: 2, Sunday: 6}
+
+
+# *** Relationship Strengths Directed ***
+# First 15 Episodes Strengths (Directed):
+Taylor: {Jay: 7, Figgy: 10, Michelle: 3, Mari: -2, Michaela: 1, Will: 4, Hannah: 1, Ken: -1, Adam: -11, Jessica: 1}
+Figgy: {Jay: 3, Taylor: 7, Michaela: -2, Mari: -2, Michelle: 2, Will: 1, Hannah: 1, Zeke: -2, Adam: 0, Ken: -2}
+Jay: {Taylor: 4, Figgy: 3, Michelle: 6, Mari: -2, Michaela: -1, Will: 12, Hannah: 3, Bret: 6, Sunday: 9, Adam: -2, Zeke: 3, Jessica: -3, Ken: -1, David: -5, Chris: 2}
+Michelle: {Hannah: 2, Figgy: 3, Jay: 6, Taylor: 4, Mari: -2, Michaela: 1, Will: 3, Zeke: 0, CeCe: -2, Chris: 1, David: 1, Adam: -2}
+Hannah: {Michelle: 0, Mari: -1, Figgy: 0, Michaela: 3, Taylor: 1, Will: 3, Jay: -1, Zeke: 2, Adam: 9, Bret: 1, David: 11, Chris: -1, Sunday: -1, Ken: 9, Jessica: 5}
+Sunday: {Rachel: -1, CeCe: -2, Lucy: 3, Jessica: -2, Bret: 14, Chris: 6, Paul: -2, David: 3, Ken: 5, Michaela: -2, Will: 0, Jay: 6, Michelle: -2, Hannah: 4, Adam: 4, Zeke: 6, Taylor: -2}
+David: {Bret: 1, Chris: 1, Rachel: -2, Ken: 18, Paul: -5, Taylor: -5, Lucy: -2, Sunday: 1, CeCe: 1, Jessica: 12, Michelle: -3, Zeke: 6, Jay: -3, Hannah: 10, Adam: 10, Will: -1}
+Bret: {David: -5, Rachel: -4, Ken: 4, Paul: 2, Chris: 10, CeCe: -3, Sunday: 14, Lucy: 0, Jessica: -5, Michaela: -2, Will: 1, Jay: 0, Taylor: -2, Michelle: -2, Hannah: 5, Adam: 4, Zeke: 9}
+Chris: {David: 3, Rachel: -3, Ken: 5, Paul: 2, Bret: 11, CeCe: -6, Sunday: 8, Lucy: 0, Jessica: -6, Zeke: 6, Michelle: -1, Taylor: -2, Hannah: 1, Adam: 2, Jay: 2}
+Jessica: {David: 7, Rachel: -1, CeCe: -3, Lucy: 3, Sunday: 3, Chris: -1, Paul: -2, Bret: 2, Ken: 10, Figgy: -2, Adam: 5, Zeke: 7, Taylor: -1, Michelle: -2, Hannah: 4, Jay: -3, Will: 2}
+Mari: {Hannah: 1, Figgy: -4, Zeke: 1, Adam: 1}
+Rachel: {Sunday: -2}
+Paul: {Rachel: -2, Ken: 1, Bret: 2, David: -1, Chris: 2, CeCe: -4, Jessica: 1, Sunday: 1}
+Lucy: {CeCe: -1, Jessica: -1, Sunday: 3, Paul: -3, David: 2, Ken: 3, Bret: 2, Chris: 2}
+CeCe: {David: 1, Paul: -4, Ken: 2, Lucy: -1, Sunday: 1, Jessica: 1, Chris: 1, Michelle: -2}
+Ken: {Rachel: -2, Bret: 4, David: 18, Paul: -5, Chris: 2, CeCe: 0, Jessica: 7, Sunday: 4, Lucy: 0, Adam: 12, Figgy: -2, Zeke: 6, Taylor: -3, Michelle: -2, Hannah: 8, Jay: -2, Will: 0}
+Michaela: {Taylor: -1, Figgy: -5, Mari: -2, Michelle: 1, Will: 2, Jay: 2, Hannah: 3, Bret: -2}
+Zeke: {Figgy: -3, Michaela: -1, Adam: 5, Mari: 1, Hannah: 5, Michelle: -2, Chris: 3, CeCe: -3, David: 4, Jay: 3, Ken: 4, Jessica: 2, Taylor: -5, Bret: 7, Sunday: 7, Will: 6}
+Will: {Mari: -2, Michaela: 0, Michelle: 3, Taylor: 3, Figgy: 1, Jay: 6, Hannah: 9, Bret: 2, Sunday: 1, Adam: -1, Jessica: 2, Zeke: -1, Chris: -2, David: -1, Ken: 0}
+Adam: {Figgy: -6, Mari: 1, Zeke: 7, Hannah: 10, Taylor: -4, Jessica: 6, Ken: 11, Will: -3, Michelle: -2, David: 10, Bret: 4, Chris: 0, Sunday: 2, Jay: -2}
+
+
+# *** Relationship Strengths Undirected ***
+# First 15 Episodes Strengths (Undirected):
+Taylor: {Jay: 11, Figgy: 17, Michelle: 7, Michaela: 0, Mari: -2, Will: 7, Hannah: 2, David: -5, Adam: -15, Ken: -4, Jessica: 0, Bret: -2, Zeke: -5, Chris: -2, Sunday: -2}
+Jay: {Taylor: 11, Figgy: 6, Michelle: 12, Mari: -2, Michaela: 1, Will: 18, Hannah: 2, Bret: 6, Sunday: 15, Zeke: 6, Adam: -4, David: -8, Jessica: -6, Ken: -3, Chris: 4}
+Figgy: {Taylor: 17, Jay: 6, Michaela: -7, Mari: -6, Zeke: -5, Hannah: 1, Michelle: 5, Adam: -6, Will: 2, Ken: -4, Jessica: -2}
+Michelle: {Taylor: 7, Jay: 12, Hannah: 2, Figgy: 5, Mari: -2, Michaela: 2, Will: 6, Zeke: -2, David: -2, CeCe: -4, Chris: 0, Adam: -4, Bret: -2, Sunday: -2, Ken: -2, Jessica: -2}
+Hannah: {Michelle: 2, Mari: 0, Figgy: 1, Michaela: 6, Taylor: 2, Will: 12, Jay: 2, Zeke: 7, Adam: 19, Bret: 6, David: 21, Chris: 0, Sunday: 3, Ken: 17, Jessica: 9}
+Sunday: {Rachel: -3, CeCe: -1, Lucy: 6, Jessica: 1, Ken: 9, Bret: 28, Chris: 14, Paul: -1, David: 4, Michaela: -2, Will: 1, Jay: 15, Michelle: -2, Hannah: 3, Adam: 6, Zeke: 13, Taylor: -2}
+Rachel: {Sunday: -3, Chris: -3, Jessica: -1, Bret: -4, Paul: -2, David: -2, Ken: -2}
+David: {Bret: -4, Chris: 4, Jessica: 19, CeCe: 2, Rachel: -2, Paul: -6, Ken: 36, Taylor: -5, Lucy: 0, Sunday: 4, Zeke: 10, Michelle: -2, Jay: -8, Hannah: 21, Adam: 20, Will: -2}
+Bret: {David: -4, Rachel: -4, Paul: 4, Ken: 8, Chris: 21, Jessica: -3, CeCe: -3, Sunday: 28, Lucy: 2, Hannah: 6, Jay: 6, Will: 3, Michaela: -4, Taylor: -2, Michelle: -2, Adam: 8, Zeke: 16}
+Chris: {David: 4, Rachel: -3, Paul: 4, Ken: 7, Bret: 21, Jessica: -7, CeCe: -5, Sunday: 14, Lucy: 2, Zeke: 9, Michelle: 0, Taylor: -2, Hannah: 0, Adam: 2, Jay: 4, Will: -2}
+Jessica: {David: 19, Rachel: -1, CeCe: -2, Lucy: 2, Sunday: 1, Ken: 17, Chris: -7, Paul: -1, Bret: -3, Figgy: -2, Adam: 11, Taylor: 0, Zeke: 9, Michelle: -2, Hannah: 9, Jay: -6, Will: 4}
+Mari: {Hannah: 0, Figgy: -6, Michaela: -2, Michelle: -2, Taylor: -2, Will: -2, Jay: -2, Adam: 2, Zeke: 2}
+Paul: {Rachel: -2, Ken: -4, Bret: 4, David: -6, Chris: 4, CeCe: -8, Jessica: -1, Sunday: -1, Lucy: -3}
+Lucy: {CeCe: -2, Jessica: 2, Sunday: 6, Paul: -3, David: 0, Ken: 3, Chris: 2, Bret: 2}
+CeCe: {Lucy: -2, David: 2, Jessica: -2, Sunday: -1, Paul: -8, Ken: 2, Chris: -5, Bret: -3, Zeke: -3, Michelle: -4}
+Ken: {Rachel: -2, Paul: -4, Bret: 8, David: 36, Chris: 7, CeCe: 2, Jessica: 17, Sunday: 9, Lucy: 3, Adam: 23, Figgy: -4, Taylor: -4, Zeke: 10, Michelle: -2, Hannah: 17, Jay: -3, Will: 0}
+Michaela: {Taylor: 0, Figgy: -7, Zeke: -1, Mari: -2, Michelle: 2, Will: 2, Jay: 1, Hannah: 6, Bret: -4, Sunday: -2}
+Zeke: {Figgy: -5, Michaela: -1, Adam: 12, Mari: 2, Hannah: 7, Michelle: -2, Chris: 9, CeCe: -3, David: 10, Jay: 6, Jessica: 9, Ken: 10, Taylor: -5, Bret: 16, Sunday: 13, Will: 5}
+Will: {Mari: -2, Figgy: 2, Michaela: 2, Michelle: 6, Taylor: 7, Jay: 18, Hannah: 12, Bret: 3, Sunday: 1, Adam: -4, Jessica: 4, Zeke: 5, Chris: -2, David: -2, Ken: 0}
+Adam: {Figgy: -6, Mari: 2, Zeke: 12, Hannah: 19, Taylor: -15, Ken: 23, Jessica: 11, Will: -4, Jay: -4, Michelle: -4, David: 20, Bret: 8, Chris: 2, Sunday: 6}
+
+
+# *** Relationship Strengths Directed ***
+# First 16 Episodes Strengths (Directed):
+Taylor: {Jay: 7, Figgy: 10, Michelle: 3, Mari: -2, Michaela: 1, Will: 4, Hannah: 1, Ken: -1, Adam: -11, Jessica: 1}
+Figgy: {Jay: 3, Taylor: 7, Michaela: -2, Mari: -2, Michelle: 2, Will: 1, Hannah: 1, Zeke: -2, Adam: 0, Ken: -2}
+Jay: {Taylor: 4, Figgy: 3, Michelle: 6, Mari: -2, Michaela: -1, Will: 12, Hannah: 3, Bret: 6, Sunday: 9, Adam: -2, Zeke: 3, Jessica: -3, Ken: -1, David: -5, Chris: 2}
+Michelle: {Hannah: 2, Figgy: 3, Jay: 6, Taylor: 4, Mari: -2, Michaela: 1, Will: 3, Zeke: 0, CeCe: -2, Chris: 1, David: 1, Adam: -2}
+Hannah: {Michelle: 0, Mari: -1, Figgy: 0, Michaela: 3, Taylor: 1, Will: 3, Jay: -1, Zeke: 2, Adam: 9, Bret: -1, David: 12, Chris: -1, Sunday: -1, Ken: 10, Jessica: 5}
+Sunday: {Rachel: -1, CeCe: -2, Lucy: 3, Jessica: -2, Bret: 14, Chris: 6, Paul: -2, David: 3, Ken: 5, Michaela: -2, Will: 0, Jay: 6, Michelle: -2, Hannah: 4, Adam: 4, Zeke: 6, Taylor: -2}
+David: {Bret: -1, Chris: 1, Rachel: -2, Ken: 20, Paul: -5, Taylor: -5, Lucy: -2, Sunday: 1, CeCe: 1, Jessica: 12, Michelle: -3, Zeke: 6, Jay: -3, Hannah: 12, Adam: 9, Will: -1}
+Bret: {David: -9, Rachel: -4, Ken: 4, Paul: 2, Chris: 10, CeCe: -3, Sunday: 14, Lucy: 0, Jessica: -5, Michaela: -2, Will: 1, Jay: 0, Taylor: -2, Michelle: -2, Hannah: 5, Adam: 6, Zeke: 9}
+Chris: {David: 3, Rachel: -3, Ken: 5, Paul: 2, Bret: 11, CeCe: -6, Sunday: 8, Lucy: 0, Jessica: -6, Zeke: 6, Michelle: -1, Taylor: -2, Hannah: 1, Adam: 2, Jay: 2}
+Jessica: {David: 7, Rachel: -1, CeCe: -3, Lucy: 3, Sunday: 3, Chris: -1, Paul: -2, Bret: 2, Ken: 10, Figgy: -2, Adam: 5, Zeke: 7, Taylor: -1, Michelle: -2, Hannah: 4, Jay: -3, Will: 2}
+Mari: {Hannah: 1, Figgy: -4, Zeke: 1, Adam: 1}
+Rachel: {Sunday: -2}
+Paul: {Rachel: -2, Ken: 1, Bret: 2, David: -1, Chris: 2, CeCe: -4, Jessica: 1, Sunday: 1}
+Lucy: {CeCe: -1, Jessica: -1, Sunday: 3, Paul: -3, David: 2, Ken: 3, Bret: 2, Chris: 2}
+CeCe: {David: 1, Paul: -4, Ken: 2, Lucy: -1, Sunday: 1, Jessica: 1, Chris: 1, Michelle: -2}
+Ken: {Rachel: -2, Bret: 2, David: 19, Paul: -5, Chris: 2, CeCe: 0, Jessica: 7, Sunday: 4, Lucy: 0, Adam: 12, Figgy: -2, Zeke: 6, Taylor: -3, Michelle: -2, Hannah: 9, Jay: -2, Will: 0}
+Michaela: {Taylor: -1, Figgy: -5, Mari: -2, Michelle: 1, Will: 2, Jay: 2, Hannah: 3, Bret: -2}
+Zeke: {Figgy: -3, Michaela: -1, Adam: 5, Mari: 1, Hannah: 5, Michelle: -2, Chris: 3, CeCe: -3, David: 4, Jay: 3, Ken: 4, Jessica: 2, Taylor: -5, Bret: 7, Sunday: 7, Will: 6}
+Will: {Mari: -2, Michaela: 0, Michelle: 3, Taylor: 3, Figgy: 1, Jay: 6, Hannah: 9, Bret: 2, Sunday: 1, Adam: -1, Jessica: 2, Zeke: -1, Chris: -2, David: -1, Ken: 0}
+Adam: {Figgy: -6, Mari: 1, Zeke: 7, Hannah: 10, Taylor: -4, Jessica: 6, Ken: 11, Will: -3, Michelle: -2, David: 7, Bret: 7, Chris: 0, Sunday: 2, Jay: -2}
+
+
+# *** Relationship Strengths Undirected ***
+# First 16 Episodes Strengths (Undirected):
+Taylor: {Jay: 11, Figgy: 17, Michelle: 7, Michaela: 0, Mari: -2, Will: 7, Hannah: 2, David: -5, Adam: -15, Ken: -4, Jessica: 0, Bret: -2, Zeke: -5, Chris: -2, Sunday: -2}
+Jay: {Taylor: 11, Figgy: 6, Michelle: 12, Mari: -2, Michaela: 1, Will: 18, Hannah: 2, Bret: 6, Sunday: 15, Zeke: 6, Adam: -4, David: -8, Jessica: -6, Ken: -3, Chris: 4}
+Figgy: {Taylor: 17, Jay: 6, Michaela: -7, Mari: -6, Zeke: -5, Hannah: 1, Michelle: 5, Adam: -6, Will: 2, Ken: -4, Jessica: -2}
+Michelle: {Taylor: 7, Jay: 12, Hannah: 2, Figgy: 5, Mari: -2, Michaela: 2, Will: 6, Zeke: -2, David: -2, CeCe: -4, Chris: 0, Adam: -4, Bret: -2, Sunday: -2, Ken: -2, Jessica: -2}
+Hannah: {Michelle: 2, Mari: 0, Figgy: 1, Michaela: 6, Taylor: 2, Will: 12, Jay: 2, Zeke: 7, Adam: 19, Bret: 4, David: 24, Chris: 0, Sunday: 3, Ken: 19, Jessica: 9}
+Sunday: {Rachel: -3, CeCe: -1, Lucy: 6, Jessica: 1, Ken: 9, Bret: 28, Chris: 14, Paul: -1, David: 4, Michaela: -2, Will: 1, Jay: 15, Michelle: -2, Hannah: 3, Adam: 6, Zeke: 13, Taylor: -2}
+Rachel: {Sunday: -3, Chris: -3, Jessica: -1, Bret: -4, Paul: -2, David: -2, Ken: -2}
+David: {Bret: -10, Chris: 4, Jessica: 19, CeCe: 2, Rachel: -2, Paul: -6, Ken: 39, Taylor: -5, Lucy: 0, Sunday: 4, Zeke: 10, Michelle: -2, Jay: -8, Hannah: 24, Adam: 16, Will: -2}
+Bret: {David: -10, Rachel: -4, Paul: 4, Ken: 6, Chris: 21, Jessica: -3, CeCe: -3, Sunday: 28, Lucy: 2, Hannah: 4, Jay: 6, Will: 3, Michaela: -4, Taylor: -2, Michelle: -2, Adam: 13, Zeke: 16}
+Chris: {David: 4, Rachel: -3, Paul: 4, Ken: 7, Bret: 21, Jessica: -7, CeCe: -5, Sunday: 14, Lucy: 2, Zeke: 9, Michelle: 0, Taylor: -2, Hannah: 0, Adam: 2, Jay: 4, Will: -2}
+Jessica: {David: 19, Rachel: -1, CeCe: -2, Lucy: 2, Sunday: 1, Ken: 17, Chris: -7, Paul: -1, Bret: -3, Figgy: -2, Adam: 11, Taylor: 0, Zeke: 9, Michelle: -2, Hannah: 9, Jay: -6, Will: 4}
+Mari: {Hannah: 0, Figgy: -6, Michaela: -2, Michelle: -2, Taylor: -2, Will: -2, Jay: -2, Adam: 2, Zeke: 2}
+Paul: {Rachel: -2, Ken: -4, Bret: 4, David: -6, Chris: 4, CeCe: -8, Jessica: -1, Sunday: -1, Lucy: -3}
+Lucy: {CeCe: -2, Jessica: 2, Sunday: 6, Paul: -3, David: 0, Ken: 3, Chris: 2, Bret: 2}
+CeCe: {Lucy: -2, David: 2, Jessica: -2, Sunday: -1, Paul: -8, Ken: 2, Chris: -5, Bret: -3, Zeke: -3, Michelle: -4}
+Ken: {Rachel: -2, Paul: -4, Bret: 6, David: 39, Chris: 7, CeCe: 2, Jessica: 17, Sunday: 9, Lucy: 3, Adam: 23, Figgy: -4, Taylor: -4, Zeke: 10, Michelle: -2, Hannah: 19, Jay: -3, Will: 0}
+Michaela: {Taylor: 0, Figgy: -7, Zeke: -1, Mari: -2, Michelle: 2, Will: 2, Jay: 1, Hannah: 6, Bret: -4, Sunday: -2}
+Zeke: {Figgy: -5, Michaela: -1, Adam: 12, Mari: 2, Hannah: 7, Michelle: -2, Chris: 9, CeCe: -3, David: 10, Jay: 6, Jessica: 9, Ken: 10, Taylor: -5, Bret: 16, Sunday: 13, Will: 5}
+Will: {Mari: -2, Figgy: 2, Michaela: 2, Michelle: 6, Taylor: 7, Jay: 18, Hannah: 12, Bret: 3, Sunday: 1, Adam: -4, Jessica: 4, Zeke: 5, Chris: -2, David: -2, Ken: 0}
+Adam: {Figgy: -6, Mari: 2, Zeke: 12, Hannah: 19, Taylor: -15, Ken: 23, Jessica: 11, Will: -4, Jay: -4, Michelle: -4, David: 16, Bret: 13, Chris: 2, Sunday: 6}
+
+
+# *** Relationship Strengths Directed ***
+# First 17 Episodes Strengths (Directed):
+Taylor: {Jay: 7, Figgy: 10, Michelle: 3, Mari: -2, Michaela: 1, Will: 4, Hannah: 1, Ken: -1, Adam: -11, Jessica: 1}
+Figgy: {Jay: 3, Taylor: 7, Michaela: -2, Mari: -2, Michelle: 2, Will: 1, Hannah: 1, Zeke: -2, Adam: 0, Ken: -2}
+Jay: {Taylor: 4, Figgy: 3, Michelle: 6, Mari: -2, Michaela: -1, Will: 12, Hannah: 3, Bret: 6, Sunday: 9, Adam: -2, Zeke: 3, Jessica: -3, Ken: -1, David: -5, Chris: 2}
+Michelle: {Hannah: 2, Figgy: 3, Jay: 6, Taylor: 4, Mari: -2, Michaela: 1, Will: 3, Zeke: 0, CeCe: -2, Chris: 1, David: 1, Adam: -2}
+Hannah: {Michelle: 0, Mari: -1, Figgy: 0, Michaela: 3, Taylor: 1, Will: 3, Jay: -1, Zeke: 2, Adam: 11, Bret: 0, David: 9, Chris: -1, Sunday: -1, Ken: 11, Jessica: 5}
+Sunday: {Rachel: -1, CeCe: -2, Lucy: 3, Jessica: -2, Bret: 14, Chris: 6, Paul: -2, David: 3, Ken: 5, Michaela: -2, Will: 0, Jay: 6, Michelle: -2, Hannah: 4, Adam: 4, Zeke: 6, Taylor: -2}
+David: {Bret: -1, Chris: 1, Rachel: -2, Ken: 21, Paul: -5, Taylor: -5, Lucy: -2, Sunday: 1, CeCe: 1, Jessica: 12, Michelle: -3, Zeke: 6, Jay: -3, Hannah: 12, Adam: 7, Will: -1}
+Bret: {David: -11, Rachel: -4, Ken: 4, Paul: 2, Chris: 10, CeCe: -3, Sunday: 14, Lucy: 0, Jessica: -5, Michaela: -2, Will: 1, Jay: 0, Taylor: -2, Michelle: -2, Hannah: 6, Adam: 6, Zeke: 9}
+Chris: {David: 3, Rachel: -3, Ken: 5, Paul: 2, Bret: 11, CeCe: -6, Sunday: 8, Lucy: 0, Jessica: -6, Zeke: 6, Michelle: -1, Taylor: -2, Hannah: 1, Adam: 2, Jay: 2}
+Jessica: {David: 7, Rachel: -1, CeCe: -3, Lucy: 3, Sunday: 3, Chris: -1, Paul: -2, Bret: 2, Ken: 10, Figgy: -2, Adam: 5, Zeke: 7, Taylor: -1, Michelle: -2, Hannah: 4, Jay: -3, Will: 2}
+Mari: {Hannah: 1, Figgy: -4, Zeke: 1, Adam: 1}
+Rachel: {Sunday: -2}
+Paul: {Rachel: -2, Ken: 1, Bret: 2, David: -1, Chris: 2, CeCe: -4, Jessica: 1, Sunday: 1}
+Lucy: {CeCe: -1, Jessica: -1, Sunday: 3, Paul: -3, David: 2, Ken: 3, Bret: 2, Chris: 2}
+CeCe: {David: 1, Paul: -4, Ken: 2, Lucy: -1, Sunday: 1, Jessica: 1, Chris: 1, Michelle: -2}
+Ken: {Rachel: -2, Bret: 3, David: 18, Paul: -5, Chris: 2, CeCe: 0, Jessica: 7, Sunday: 4, Lucy: 0, Adam: 12, Figgy: -2, Zeke: 6, Taylor: -3, Michelle: -2, Hannah: 9, Jay: -2, Will: 0}
+Michaela: {Taylor: -1, Figgy: -5, Mari: -2, Michelle: 1, Will: 2, Jay: 2, Hannah: 3, Bret: -2}
+Zeke: {Figgy: -3, Michaela: -1, Adam: 5, Mari: 1, Hannah: 5, Michelle: -2, Chris: 3, CeCe: -3, David: 4, Jay: 3, Ken: 4, Jessica: 2, Taylor: -5, Bret: 7, Sunday: 7, Will: 6}
+Will: {Mari: -2, Michaela: 0, Michelle: 3, Taylor: 3, Figgy: 1, Jay: 6, Hannah: 9, Bret: 2, Sunday: 1, Adam: -1, Jessica: 2, Zeke: -1, Chris: -2, David: -1, Ken: 0}
+Adam: {Figgy: -6, Mari: 1, Zeke: 7, Hannah: 11, Taylor: -4, Jessica: 6, Ken: 11, Will: -3, Michelle: -2, David: 5, Bret: 7, Chris: 0, Sunday: 2, Jay: -2}
+
+
+# *** Relationship Strengths Undirected ***
+# First 17 Episodes Strengths (Undirected):
+Taylor: {Jay: 11, Figgy: 17, Michelle: 7, Michaela: 0, Mari: -2, Will: 7, Hannah: 2, David: -5, Adam: -15, Ken: -4, Jessica: 0, Bret: -2, Zeke: -5, Chris: -2, Sunday: -2}
+Jay: {Taylor: 11, Figgy: 6, Michelle: 12, Mari: -2, Michaela: 1, Will: 18, Hannah: 2, Bret: 6, Sunday: 15, Zeke: 6, Adam: -4, David: -8, Jessica: -6, Ken: -3, Chris: 4}
+Figgy: {Taylor: 17, Jay: 6, Michaela: -7, Mari: -6, Zeke: -5, Hannah: 1, Michelle: 5, Adam: -6, Will: 2, Ken: -4, Jessica: -2}
+Michelle: {Taylor: 7, Jay: 12, Hannah: 2, Figgy: 5, Mari: -2, Michaela: 2, Will: 6, Zeke: -2, David: -2, CeCe: -4, Chris: 0, Adam: -4, Bret: -2, Sunday: -2, Ken: -2, Jessica: -2}
+Hannah: {Michelle: 2, Mari: 0, Figgy: 1, Michaela: 6, Taylor: 2, Will: 12, Jay: 2, Zeke: 7, Adam: 22, Bret: 6, David: 21, Chris: 0, Sunday: 3, Ken: 20, Jessica: 9}
+Sunday: {Rachel: -3, CeCe: -1, Lucy: 6, Jessica: 1, Ken: 9, Bret: 28, Chris: 14, Paul: -1, David: 4, Michaela: -2, Will: 1, Jay: 15, Michelle: -2, Hannah: 3, Adam: 6, Zeke: 13, Taylor: -2}
+Rachel: {Sunday: -3, Chris: -3, Jessica: -1, Bret: -4, Paul: -2, David: -2, Ken: -2}
+David: {Bret: -12, Chris: 4, Jessica: 19, CeCe: 2, Rachel: -2, Paul: -6, Ken: 39, Taylor: -5, Lucy: 0, Sunday: 4, Zeke: 10, Michelle: -2, Jay: -8, Hannah: 21, Adam: 12, Will: -2}
+Bret: {David: -12, Rachel: -4, Paul: 4, Ken: 7, Chris: 21, Jessica: -3, CeCe: -3, Sunday: 28, Lucy: 2, Hannah: 6, Jay: 6, Will: 3, Michaela: -4, Taylor: -2, Michelle: -2, Adam: 13, Zeke: 16}
+Chris: {David: 4, Rachel: -3, Paul: 4, Ken: 7, Bret: 21, Jessica: -7, CeCe: -5, Sunday: 14, Lucy: 2, Zeke: 9, Michelle: 0, Taylor: -2, Hannah: 0, Adam: 2, Jay: 4, Will: -2}
+Jessica: {David: 19, Rachel: -1, CeCe: -2, Lucy: 2, Sunday: 1, Ken: 17, Chris: -7, Paul: -1, Bret: -3, Figgy: -2, Adam: 11, Taylor: 0, Zeke: 9, Michelle: -2, Hannah: 9, Jay: -6, Will: 4}
+Mari: {Hannah: 0, Figgy: -6, Michaela: -2, Michelle: -2, Taylor: -2, Will: -2, Jay: -2, Adam: 2, Zeke: 2}
+Paul: {Rachel: -2, Ken: -4, Bret: 4, David: -6, Chris: 4, CeCe: -8, Jessica: -1, Sunday: -1, Lucy: -3}
+Lucy: {CeCe: -2, Jessica: 2, Sunday: 6, Paul: -3, David: 0, Ken: 3, Chris: 2, Bret: 2}
+CeCe: {Lucy: -2, David: 2, Jessica: -2, Sunday: -1, Paul: -8, Ken: 2, Chris: -5, Bret: -3, Zeke: -3, Michelle: -4}
+Ken: {Rachel: -2, Paul: -4, Bret: 7, David: 39, Chris: 7, CeCe: 2, Jessica: 17, Sunday: 9, Lucy: 3, Adam: 23, Figgy: -4, Taylor: -4, Zeke: 10, Michelle: -2, Hannah: 20, Jay: -3, Will: 0}
+Michaela: {Taylor: 0, Figgy: -7, Zeke: -1, Mari: -2, Michelle: 2, Will: 2, Jay: 1, Hannah: 6, Bret: -4, Sunday: -2}
+Zeke: {Figgy: -5, Michaela: -1, Adam: 12, Mari: 2, Hannah: 7, Michelle: -2, Chris: 9, CeCe: -3, David: 10, Jay: 6, Jessica: 9, Ken: 10, Taylor: -5, Bret: 16, Sunday: 13, Will: 5}
+Will: {Mari: -2, Figgy: 2, Michaela: 2, Michelle: 6, Taylor: 7, Jay: 18, Hannah: 12, Bret: 3, Sunday: 1, Adam: -4, Jessica: 4, Zeke: 5, Chris: -2, David: -2, Ken: 0}
+Adam: {Figgy: -6, Mari: 2, Zeke: 12, Hannah: 22, Taylor: -15, Ken: 23, Jessica: 11, Will: -4, Jay: -4, Michelle: -4, David: 12, Bret: 13, Chris: 2, Sunday: 6}
+
+
