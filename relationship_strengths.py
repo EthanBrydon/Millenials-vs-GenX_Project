@@ -283,6 +283,23 @@ def print_all_episode_graphs_undir(episodes):
         print()
 
 
+# Print the relationship strengths for all episodes
+def print_all_episode_strengths(episodes):
+    for i in range(len(episodes)):
+        relationship_strengths_dir = calculate_relationship_strengths_directed(episodes[:i+1])
+        relationship_strengths_undir = calculate_relationship_strengths_undirected(episodes[:i+1])
+
+        print("# *** Relationship Strengths Directed ***")
+        print('# First ' + str(i+1) + ' Episodes Strengths (Directed):\n')
+        print(toString(relationship_strengths_dir))
+        print()
+
+        print("# *** Relationship Strengths Undirected ***")
+        print('# First ' + str(i+1) + ' Episodes Strengths (Undirected):\n')
+        print(toString(relationship_strengths_undir))
+        print()
+
+
 # Main function
 def main():
 
@@ -295,14 +312,26 @@ def main():
 
     sorted_episodes = sorted(episodes, key=lambda x: float(x[0][0]))
 
-    print_all_episode_graphs_undir(sorted_episodes)
+    # print_all_episode_graphs_undir(sorted_episodes)
     
-    ### Testing toStringForGraphTemplate() function ###
-    # relationship_strengths_dir = calculate_relationship_strengths_directed(sorted_episodes[:1])
+    # print to a file
+    f = open("relationship_strengths.txt", "w")
+    f.write("##### RELATIONSHIP STRENGTHS #####\n")
+    for i in range(len(sorted_episodes)):
+        relationship_strengths_dir = calculate_relationship_strengths_directed(sorted_episodes[:i+1])
+        relationship_strengths_undir = calculate_relationship_strengths_undirected(sorted_episodes[:i+1])
 
-    # print("*** Relationship Strengths ***")
-    # print('First 1 Episodes Relationship Strengths (Directed):')
-    # print(toStringForGraphTemplate(relationship_strengths_dir, 1, get_episode_players_list()[0]))
+        f.write("# *** Relationship Strengths Directed ***\n")
+        f.write('# First ' + str(i+1) + ' Episodes Strengths (Directed):\n')
+        f.write(toString(relationship_strengths_dir) + '\n\n')
+
+        f.write("# *** Relationship Strengths Undirected ***\n")
+        f.write('# First ' + str(i+1) + ' Episodes Strengths (Undirected):\n')
+        f.write(toString(relationship_strengths_undir) + '\n\n')
+    
+    f.close()
+
+    print_all_episode_strengths(sorted_episodes)
 
 
 if __name__ == '__main__':
